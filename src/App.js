@@ -1,19 +1,29 @@
 import './App.css';
 import 'normalize.css';
 
+//Router//
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 //Componentes
-import { Navbar } from './Navbar/Navbar';
+import { Navbar } from './components/Navbar/Navbar';
+import { Home } from './components/Home/Home';
+import {About} from './components/About/About';
+import {Services} from './components/Services/Services';
+import {Contact} from './components/Contact/Contact';
 
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <div className='container'>
-        <p>Chipa digital</p>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/services' element={<Services/>} />
+        <Route path='/contact' element={<Contact/>} />
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 

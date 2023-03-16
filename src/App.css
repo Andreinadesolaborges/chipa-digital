@@ -1,30 +1,29 @@
-
 @font-face {
-  font-family: "Light";   
+  font-family: "Light";
   src: local("GreycliffCF-Light"),
     url("./fonts/GreycliffCF-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Medium";  
+  font-family: "Medium";
   src: local("GreycliffCF-Medium"),
     url("./fonts/GreycliffCF-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "ExtraBold";  
+  font-family: "ExtraBold";
   src: local("GreycliffCF-ExtraBold"),
     url("./fonts/GreycliffCF-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Heavy";  
+  font-family: "Heavy";
   src: local("GreycliffCF-Heavy"),
     url("./fonts/GreycliffCF-Heavy.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Regular";  
+  font-family: "Regular";
   src: local("GreycliffCF-Regular"),
     url("./fonts/GreycliffCF-Regular.ttf") format("truetype");
 }
@@ -33,7 +32,11 @@
   color: #0E081A;
 }
 
-.container{
+p {
+  font-size: 1em;
+}
+
+.container {
   text-align: center;
   min-height: 100vh;
   display: flex;
@@ -45,12 +48,12 @@
   letter-spacing: -0.01em;
 }
 
-.nav{
+.nav {
   position: fixed;
   z-index: 2;
 }
 
-.navbar{
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -61,34 +64,108 @@
   justify-content: space-between;
 }
 
-.padding-navbar{
-  padding: 15px;
-}
-.margin-navbar{
-  margin: 20px;
+.padding-navbar {
+  padding: 0.938em;
 }
 
-.logo{
-  height: 30px;
+.margin-navbar {
+  margin: 2em;
 }
 
-.menu{
-  height: 14px;
-  padding: 18px 15px;
+.logo {
+  height: 1.875em;
+}
+
+.menu {
+  height: 0.875em;
 }
 
 .menu-container {
-  background-color: #FECC3F;
+  position: relative;
+  background: #FECC3F;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
+.menu-container:hover {
+  background: #AD80CE;
+}
 
+.m-open {
+  background: #E3D6EA;
+}
 
+.m-close {
+  background: #FECC3F;
+}
 
+.menu-toggler {
+  cursor: pointer;
+}
 
+.nav-overlay {
+  position: fixed;
+  z-index: -2;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
 
+.container-secciones {
+  text-align: left;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: #0E081A;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  margin: 1.25em;
+  padding: 0.938em;
+}
 
+ul,
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Heavy";
+  font-size: 1.75em;
+  line-height: 1.75em;
+  color: #0E081A;
+}
+
+li:visited,
+li:active {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #0E081A;
+}
+
+li:hover{
+  transition: 0.3s ease;
+  color: #AD80CE;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #0E081A;
+}
