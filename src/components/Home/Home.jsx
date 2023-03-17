@@ -4,7 +4,8 @@ export const Home = () => {
         <div>
             <div className="App">
                 <div className='container'>
-                   
+                   <AnimatedTitle anitext={'¡Llevamos estrategias'}/>
+                   <AnimatedTitle anitext={'creativas a la acción!'}/>
                 </div>
             </div>
         </div>
