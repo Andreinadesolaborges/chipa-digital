@@ -135,7 +135,7 @@ h6{
 }
 
 .container-secciones {
-  height: 90vh;
+  height: 80vh;
   width: 100%;
   text-align: left;
   color: #0E081A;
@@ -161,7 +161,6 @@ li {
 
 ul{
   margin-left: 1.25em;
-  padding-left: 0.938em;
 }
 
 li:visited {
@@ -194,7 +193,7 @@ a {
 }
 
 .container-social{
-  height: 10vh;
+  height: 20vh;
   width: 100%;
   justify-self: flex-end;
   display: flex;
@@ -359,12 +358,13 @@ a {
   /* styles for viewports <= 320px */ 
   
   .container-secciones{
-    height: 80vh;
+    height: 70vh;
+    justify-content: flex-end;
   }
   .container-social{
-    height: 20vh;
+    height: 30vh;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
 
@@ -381,7 +381,18 @@ a {
   }
 
   h6{
-    font-size: 1.1em;
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+
+
+  li{
+    font-size: 1.5em;
+    line-height: 1.5em;
   }
   
 }
