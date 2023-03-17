@@ -11,20 +11,18 @@ import {About} from './components/About/About';
 import {Services} from './components/Services/Services';
 import {Contact} from './components/Contact/Contact';
 
-
 function App() {
-  return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/services' element={<Services/>} />
-        <Route path='/contact' element={<Contact/>} />
-      </Routes>
-    </BrowserRouter>
-
-  );
+    return (
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/services' element={<Services/>} />
+          <Route path='/contact' element={<Contact/>} />
+        </Routes>
+      </BrowserRouter>
+    );
 }
 
 export default App;
