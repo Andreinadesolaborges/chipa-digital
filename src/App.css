@@ -281,6 +281,9 @@ button, select:focus-visible{
   outline: none;
 }
 
+.mobile-hidden {
+  display: block;
+}
 
 /*Media Queries*/
 
@@ -325,6 +328,10 @@ button, select:focus-visible{
   li{
     font-size: 1.35em;
     line-height: 1.45em;
+  }
+
+  .mobile-hidden {
+    display: none;
   }
   
 }
