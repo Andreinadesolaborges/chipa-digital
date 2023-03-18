@@ -20,7 +20,7 @@ const translations = {
         menuCat2: "About",
         menuCat3: "Services",
         menuCat4: "Contact",
-        menuCTA: "Start baking your ideas",
+        menuCTA: "Start baking your ideas!",
         homeTitlel1: "We bring creative ",
         homeTitlel2: "strategies into action!",
     },
