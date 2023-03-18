@@ -3,12 +3,15 @@ import linkedin from '../../../img/linkedin.svg';
 import tiktok from '../../../img/tiktok.svg';
 import chat from '../../../img/wsp.svg'
 import { motion } from "framer-motion";
+import { useContext } from "react";
+import LanguageContext from '../../../Context/LanguageContext';
 
 export const Social = () => {
+    const {texts} = useContext(LanguageContext);
     return (
         <div className="container-social">
             <div className='social-text-wrapper'>
-                <h6>¿qué esperas para hornear tus ideas?</h6>
+                <h6>{texts.menuCTA}</h6>
             </div>
             <div className="social-icons-wrapper">
                 <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">

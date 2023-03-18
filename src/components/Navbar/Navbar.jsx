@@ -2,23 +2,32 @@ import logo from '../../img/logo.svg';
 import logoNav from '../../img/logo-nav.svg';
 import menu from '../../img/hamburger.svg';
 import close from '../../img/close.svg';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { Social } from './Social/Social';
+import LanguageContext from '../../Context/LanguageContext';
 
 export const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
+    const { texts, handleLanguage } = useContext(LanguageContext);
 
     return (
         <>
             <div className="nav">
                 <div className="navbar">
                     <Link to={"/"} onClick={() => navOpen && setNavOpen(false)}> <img className="margin-navbar logo" src={navOpen ? `${logoNav}` : `${logo}`} alt="logo" /></Link>
-                    <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
-                        <motion.div  whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} className={`margin-navbar menu-container ${navOpen ? 'm-open' : 'm-close'}`}>
-                            <img className="menu" src={navOpen ? `${close}` : `${menu}`} alt="menu" />
-                        </motion.div>
+
+                    <div className='container-nav-r'>
+                        <select name="language" onChange={handleLanguage}>
+                            <option value="es">ES</option>
+                            <option value="en">EN</option>
+                        </select>
+                        <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
+                            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} className={`margin-navbar menu-container ${navOpen ? 'm-open' : 'm-close'}`}>
+                                <img className="menu" src={navOpen ? `${close}` : `${menu}`} alt="menu" />
+                            </motion.div>
+                        </div>
                     </div>
                 </div>
                 <div className="nav-overlay" style={{
@@ -29,13 +38,13 @@ export const Navbar = () => {
                 }}>
                     <div className="container-secciones">
                         <ul>
-                            <Link onClick={() => setNavOpen(!navOpen)} to={"/"}> <li>Home</li> </Link>
-                            <Link onClick={() => setNavOpen(!navOpen)} to={"/about"}><li>Nosotros</li></Link>
-                            <Link onClick={() => setNavOpen(!navOpen)} to={"/services"}><li>Servicios</li></Link>
-                            <Link onClick={() => setNavOpen(!navOpen)} to={"/contact"}><li>Contacto</li></Link>
+                            <Link onClick={() => setNavOpen(!navOpen)} to={"/"}> <li>{texts.menuCat1}</li> </Link>
+                            <Link onClick={() => setNavOpen(!navOpen)} to={"/about"}><li>{texts.menuCat2}</li></Link>
+                            <Link onClick={() => setNavOpen(!navOpen)} to={"/services"}><li>{texts.menuCat3}</li></Link>
+                            <Link onClick={() => setNavOpen(!navOpen)} to={"/contact"}><li>{texts.menuCat4}</li></Link>
                         </ul>
                     </div>
-                    <Social/>
+                    <Social />
                 </div>
             </div>
         </>

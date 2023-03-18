@@ -44,6 +44,12 @@ h6{
   margin: 0px;
 }
 
+h1{
+  font-size: 2.35em;
+  font-family: "ExtraBold";
+  margin: 0.1em;
+}
+
 .container {
   text-align: center;
   min-height: 100vh;
@@ -70,6 +76,13 @@ h6{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.container-nav-r{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .padding-navbar {
@@ -244,6 +257,30 @@ a {
   height: 32px;
 }
 
+button, select {
+  text-transform: none;
+  background: none;
+  border: none;
+  width: 44px;
+  height: 44px;
+  padding: .1em;
+  font-family: "ExtraBold";
+  color: #4A325B;
+}
+
+.color-a{
+  color: #0E081A;
+}
+
+.color-b{
+  color: #AD80CE;
+}
+
+
+button, select:focus-visible{
+  outline: none;
+}
+
 
 /*Media Queries*/
 
@@ -279,6 +316,10 @@ a {
 
   p {
     font-size: 0.8em;
+  }
+
+  h1{
+    font-size: 1.5em;
   }
 
   li{
