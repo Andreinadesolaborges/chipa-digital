@@ -11,12 +11,14 @@ import { About } from './components/About/About';
 import { Services } from './components/Services/Services';
 import { Contact } from './components/Contact/Contact';
 import { LanguageProvider } from './Context/LanguageContext';
+import { Sidebar } from './components/Sidebar/Sidebar';
 
 function App() {
   return (
     <BrowserRouter>
       <LanguageProvider>
         <Navbar/>
+        <Sidebar/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />

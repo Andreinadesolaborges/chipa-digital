@@ -285,8 +285,44 @@ button, select:focus-visible{
   display: block;
 }
 
-/*Media Queries*/
+.sidebar {
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  width: 108px;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
+}
+
+.sidebar-text{
+  color: #4A325B;
+  transform: rotate(90deg);
+  font-size: 0.8em;
+  text-align: center;
+  align-self: center;
+  width: 500px;
+
+}
+
+.sidebar-btn {
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+}
+
+
+.chat-btn{
+  margin: 2em;
+}
+
+
+/*Media Queries*/
 @media (width <= 768px) { 
   /* styles for viewports <= 320px */ 
   

@@ -14,6 +14,7 @@ const translations = {
         menuCTA: "¿qué esperas para hornear tus ideas?",
         homeTitlel1: "¡Llevamos estrategias",
         homeTitlel2: "creativas a la acción!",
+        sidebarText: "Agencia boutique de diseño web, marketing digital y redes sociales."
     },
     en: {
         menuCat1: "Home",
@@ -23,6 +24,7 @@ const translations = {
         menuCTA: "Start baking your ideas!",
         homeTitlel1: "We bring creative ",
         homeTitlel2: "strategies into action!",
+        sidebarText: "Boutique agency of web design, digital marketing, and social media."
     },
 };
 
