@@ -36,7 +36,7 @@ p {
   font-size: 1em;
 }
 
-h6{
+h6 {
   font-family: "ExtraBold";
   font-size: 1.25em;
   color: #0E081A;
@@ -44,7 +44,7 @@ h6{
   margin: 0px;
 }
 
-h1{
+h1 {
   font-size: 2.35em;
   font-family: "ExtraBold";
   margin: 0.1em;
@@ -52,19 +52,20 @@ h1{
 
 .container {
   text-align: center;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   font-size: 1em;
   color: #0E081A;
   letter-spacing: -0.01em;
+  overflow: hidden;
 }
 
 .nav {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
 }
 
 .navbar {
@@ -78,7 +79,7 @@ h1{
   justify-content: space-between;
 }
 
-.container-nav-r{
+.container-nav-r {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -172,7 +173,7 @@ li {
   color: #0E081A;
 }
 
-ul{
+ul {
   margin-left: 1.25em;
 }
 
@@ -192,7 +193,7 @@ li:active {
   color: #AD80CE;
 }
 
-li:hover{
+li:hover {
   transition: 0.3s ease;
   color: #AD80CE;
 }
@@ -205,7 +206,7 @@ a {
   color: #0E081A;
 }
 
-.container-social{
+.container-social {
   height: 20%;
   width: 100%;
   justify-self: flex-end;
@@ -217,10 +218,10 @@ a {
   color: #0E081A;
   letter-spacing: -0.01em;
   text-decoration: none;
-  
+
 }
 
-.social-text-wrapper{
+.social-text-wrapper {
   padding: 2em;
   display: flex;
   flex-direction: row;
@@ -228,7 +229,7 @@ a {
   justify-content: center;
 }
 
-.social-icons-wrapper{
+.social-icons-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -236,7 +237,7 @@ a {
   padding: 2em;
 }
 
-.social-icon{
+.social-icon {
   background: #ffffff;
   width: 44px;
   height: 44px;
@@ -257,7 +258,8 @@ a {
   height: 32px;
 }
 
-button, select {
+button,
+select {
   text-transform: none;
   background: none;
   border: none;
@@ -268,16 +270,17 @@ button, select {
   color: #4A325B;
 }
 
-.color-a{
+.color-a {
   color: #0E081A;
 }
 
-.color-b{
+.color-b {
   color: #AD80CE;
 }
 
 
-button, select:focus-visible{
+button,
+select:focus-visible {
   outline: none;
 }
 
@@ -287,7 +290,7 @@ button, select:focus-visible{
 
 .sidebar {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   height: 100%;
   width: 108px;
   right: 0;
@@ -299,7 +302,7 @@ button, select:focus-visible{
 
 }
 
-.sidebar-text{
+.sidebar-text {
   color: #4A325B;
   transform: rotate(90deg);
   font-size: 0.8em;
@@ -311,45 +314,73 @@ button, select:focus-visible{
 
 .sidebar-btn {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   right: 0;
   bottom: 0;
 }
 
 
-.chat-btn{
+.chat-btn {
   margin: 2em;
 }
 
 
+/*Home*/
+
+.semi-circle {
+  width: 110vw;
+  height: 55vw;
+  background-color: #DAC6E1;
+  border-radius: 55vw 55vw 0 0;
+  transform: translate(0%, 35%);
+}
+
+.front-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img{
+  height: 300px;
+}
+
 /*Media Queries*/
-@media (width <= 768px) { 
-  /* styles for viewports <= 320px */ 
-  
-  .container-secciones{
+@media (width <=768px) {
+  /* styles for viewports <= 320px */
+
+  .container-secciones {
     height: 70%;
     justify-content: flex-end;
   }
-  .container-social{
+
+  .container-social {
     height: 30%;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
   }
 
-  .social-icons-wrapper, .social-text-wrapper{
+  .social-icons-wrapper,
+  .social-text-wrapper {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  .social-text-wrapper{
+  .social-text-wrapper {
     text-align: center;
     padding-bottom: 1em;
   }
 
-  h6{
+  h6 {
     font-size: 1em;
   }
 
@@ -357,11 +388,11 @@ button, select:focus-visible{
     font-size: 0.8em;
   }
 
-  h1{
+  h1 {
     font-size: 1.5em;
   }
 
-  li{
+  li {
     font-size: 1.35em;
     line-height: 1.45em;
   }
@@ -369,6 +400,5 @@ button, select:focus-visible{
   .mobile-hidden {
     display: none;
   }
-  
-}
 
+}
