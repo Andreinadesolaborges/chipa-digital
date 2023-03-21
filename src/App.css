@@ -74,6 +74,7 @@ h1 {
   top: 0;
   left: 0;
   width: 100vw;
+  width: 100dvw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -292,7 +293,8 @@ select:focus-visible {
 .sidebar {
   position: fixed;
   z-index: 3;
-  height: 100%;
+  height: 100vh;
+  height: 100dvh;
   width: 108px;
   right: 0;
   bottom: 0;
@@ -310,7 +312,6 @@ select:focus-visible {
   text-align: center;
   align-self: center;
   width: 500px;
-
 }
 
 .sidebar-btn {
