@@ -12,11 +12,13 @@ import { Services } from './components/Services/Services';
 import { Contact } from './components/Contact/Contact';
 import { LanguageProvider } from './Context/LanguageContext';
 import { Sidebar } from './components/Sidebar/Sidebar';
+import {ScrollToTop} from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
       <LanguageProvider>
+        <ScrollToTop />
         <Navbar/>
         <Sidebar/>
         <Routes>
