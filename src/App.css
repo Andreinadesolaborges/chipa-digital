@@ -330,15 +330,16 @@ select:focus-visible {
 /*Home*/
 
 .semi-circle {
-  width: 110vw;
-  height: 55vw;
+  width: 110dvw;
+  height: 55dvw;
   background-color: #DAC6E1;
-  border-radius: 55vw 55vw 0 0;
+  border-radius: 55dvw 55dvw 0 0;
   transform: translate(0%, 35%);
 }
 
 .front-content {
   position: absolute;
+  height: 100dvh;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -352,6 +353,43 @@ select:focus-visible {
 .hero-img {
   height: 300px;
 }
+
+/*Slider*/
+.swiper, .swiper-container {
+  width: 100dvw;
+  height: 80dvh;
+  /* Center slide text vertically */
+  display: flex !important; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-wrapper{
+  height: auto !important;
+}
+
+.swiper-pagination-bullet{
+  background: #AD80CE !important;
+  margin: 0.5em !important;
+}
+
+.swiper-pagination-bullet-active{
+  transform: scale(1.5);
+}
+
+
+
+
+
 
 /*Media Queries*/
 @media (width <=768px) {
@@ -410,6 +448,5 @@ select:focus-visible {
   .semi-circle {
     transform: translate(0%, 0%);
   }
-
 
 }

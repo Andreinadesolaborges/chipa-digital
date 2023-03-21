@@ -1,5 +1,7 @@
 import 'normalize.css';
+//Import App styles//
 import './App.css';
+
 
 //Router//
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
