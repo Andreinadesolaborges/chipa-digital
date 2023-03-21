@@ -1,3 +1,4 @@
+import { Downarrow } from '../DownArrow/DownArrow';
 import { Slider } from '../Slider/Slider';
 
 export const Home = () => {
@@ -7,6 +8,7 @@ export const Home = () => {
                 <div className='container'>
                     <div className='front-content'>
                         <Slider />
+                        <Downarrow/>
                     </div>
                     <div className='semi-circle'></div>
                 </div>

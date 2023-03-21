@@ -354,6 +354,18 @@ select:focus-visible {
   height: 300px;
 }
 
+.icon-arrow{
+  background: #E3D6EA;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
 /*Slider*/
 .swiper, .swiper-container {
   width: 100dvw;
@@ -386,6 +398,22 @@ select:focus-visible {
   transform: scale(1.5);
 }
 
+.swiper-pagination {
+  animation: fadeInAnimation 2.5s ease-out 0s normal forwards 1;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  66% { 
+  opacity:0; 
+  }
+  100% {
+      opacity: 1;
+  }
+}
 
 
 
