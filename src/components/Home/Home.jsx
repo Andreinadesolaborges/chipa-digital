@@ -9,11 +9,11 @@ export const Home = () => {
             <div className="App">
                 <div className='container'>
                     <div className='front-content'>
-                        <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
+                        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} animate={{y:15}} initial={{opacity:0}} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 0.5}} viewport={{ once: true }}>
                         <img className='hero-img' src={planeta} alt="planeta" />
                         </motion.div>
-                        <h1 className='color-a'>{texts.homeTitlel1}</h1>
-                        <h1 className='color-b'>{texts.homeTitlel2}</h1>
+                        <motion.h1 animate={{y:15}} initial={{opacity:0}} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 0.5, delay: 0.5}} viewport={{ once: true }} className='color-a'>{texts.homeTitlel1}</motion.h1>
+                        <motion.h1 animate={{y:15}} initial={{opacity:0}} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 0.5, delay: 1}} viewport={{ once: true }} className='color-b'>{texts.homeTitlel2}</motion.h1>
                     </div>
                     <div className='semi-circle'></div>
                 </div>
