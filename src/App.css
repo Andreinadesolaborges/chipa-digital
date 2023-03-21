@@ -347,7 +347,7 @@ select:focus-visible {
   justify-content: center;
 }
 
-.hero-img{
+.hero-img {
   height: 300px;
 }
 
@@ -401,8 +401,13 @@ select:focus-visible {
     display: none;
   }
 
-  .hero-img{
-    height: 280px;
+  .hero-img {
+    height: 260px;
   }
+
+  .semi-circle {
+    transform: translate(0%, 0%);
+  }
+
 
 }
