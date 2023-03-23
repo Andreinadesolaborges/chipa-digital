@@ -1,40 +1,11 @@
 import { createContext } from "react";
 import { useState } from "react";
+import { translations } from "../components/data/translations.jsx";
 
 const LanguageContext = createContext();
 
 const initialLanguage = "es";
 
-const translations = {
-    es: {
-        menuCat1: "Inicio",
-        menuCat2: "Nosotros",
-        menuCat3: "Servicios",
-        menuCat4: "Contacto",
-        menuCTA: "¿qué esperas para hornear tus ideas?",
-        homeTitlel1: "¡Llevamos estrategias",
-        homeTitlel2: "creativas a la acción!",
-        homeTitlel3: "¡Hacemos que tu",
-        homeTitlel4: "empresa brille!",
-        homeTitlel5: "¡La receta para",
-        homeTitlel6: "alcanzar el éxito!",
-        sidebarText: "Agencia boutique de diseño web, marketing digital y redes sociales.",
-    },
-    en: {
-        menuCat1: "Home",
-        menuCat2: "About",
-        menuCat3: "Services",
-        menuCat4: "Contact",
-        menuCTA: "Start baking your ideas!",
-        homeTitlel1: "We bring creative ",
-        homeTitlel2: "strategies into action!",
-        homeTitlel3: "We make your",
-        homeTitlel4: "business shine!",
-        homeTitlel5: "The recipe",
-        homeTitlel6: "to achieve success!",
-        sidebarText: "Boutique agency of web design, digital marketing, and social media.",
-    },
-};
 
 const LanguageProvider = ({ children }) => {
 
