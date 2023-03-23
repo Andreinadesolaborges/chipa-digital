@@ -403,6 +403,25 @@ select:focus-visible {
   animation-iteration-count: 1;
 }
 
+/*Banner*/
+
+.banner {
+  height: 30dvh;
+  background: #AD80CE;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  width: 100dvw;
+}
+
+.banner-text{
+  color: #FECC3F;
+  font-size: 6em;
+
+}
+
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;
@@ -475,6 +494,14 @@ select:focus-visible {
 
   .semi-circle {
     transform: translate(0%, 0%);
+  }
+
+  .banner-text{
+    font-size: 1.5em;
+  }
+
+  .banner {
+    height: 10dvh;
   }
 
 }

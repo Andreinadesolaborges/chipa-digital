@@ -12,6 +12,7 @@ export const translations = {
         homeTitlel5: "¡La receta para",
         homeTitlel6: "alcanzar el éxito!",
         sidebarText: "Agencia boutique de diseño web, marketing digital y redes sociales.",
+        banner: "Somos chipa agencia digital"
     },
     en: {
         menuCat1: "Home",
@@ -26,5 +27,6 @@ export const translations = {
         homeTitlel5: "The recipe",
         homeTitlel6: "to achieve success!",
         sidebarText: "Boutique agency of web design, digital marketing, and social media.",
+        banner: "We are chipa digital agency"
     },
 };

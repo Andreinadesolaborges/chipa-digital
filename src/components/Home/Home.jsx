@@ -1,3 +1,4 @@
+import { Banner } from '../Banner/Banner';
 import { Downarrow } from '../DownArrow/DownArrow';
 import { Slider } from '../Slider/Slider';
 
@@ -12,6 +13,7 @@ export const Home = () => {
                     </div>
                     <div className='semi-circle'></div>
                 </div>
+               <Banner/>
             </div>
         </div>
     );
