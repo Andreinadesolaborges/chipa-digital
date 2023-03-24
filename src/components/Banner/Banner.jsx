@@ -10,10 +10,15 @@ export const Banner = () => {
 
     return (
         <div className="banner">
-            <motion.h1 className="banner-text" initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.5 }} transition={{ ease: "easeOut", duration: 1}} 
+            <motion.h1 className="banner-text mobile-hidden" initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.5 }} transition={{ ease: "easeOut", duration: 1}} 
             variants={{
                 visible: {x: 0},
-                hidden: { x: 200}
+                hidden: { x: 500}
+            }}>{texts.banner}</motion.h1>
+               <motion.h1 className="banner-text mobile-show" initial="hidden" animate="visible" viewport={{ once: false, amount: 0.5 }} transition={{ ease: "easeOut", duration: 5, repeat: Infinity }} 
+            variants={{
+                visible: {x: "-120dvw"},
+                hidden: {x: "120dvw"}
             }}>{texts.banner}</motion.h1>
         </div>
     );

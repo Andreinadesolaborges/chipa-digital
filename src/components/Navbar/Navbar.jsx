@@ -22,7 +22,7 @@ export const Navbar = () => {
                     <div className='container-nav-r'>
                         <LanguageSelect />
                         <div className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
-                            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} className={`margin-navbar menu-container ${navOpen ? 'm-open' : 'm-close'}`}>
+                            <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} className={`margin-navbar margin-left-mobile menu-container ${navOpen ? 'm-open' : 'm-close'} `}>
                                 <img className="menu" src={navOpen ? `${close}` : `${menu}`} alt="menu" />
                             </motion.div>
                         </div>

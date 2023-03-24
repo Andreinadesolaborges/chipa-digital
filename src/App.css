@@ -293,6 +293,10 @@ select:focus-visible {
   display: block;
 }
 
+.mobile-show {
+  display: none;
+}
+
 .sidebar {
   position: fixed;
   z-index: 3;
@@ -459,7 +463,9 @@ select:focus-visible {
   letter-spacing: -0.01em;
 }
 
-
+.margin-left-mobile {
+  margin-left: 2em;
+}
 
 
 
@@ -511,10 +517,6 @@ select:focus-visible {
     line-height: 1.45em;
   }
 
-  .mobile-hidden {
-    display: none;
-  }
-
   .hero-img {
     height: 220px;
   }
@@ -528,7 +530,7 @@ select:focus-visible {
   }
 
   .banner {
-    height: 20dvh;
+    height: 15dvh;
   }
 
   .section-text {
@@ -536,5 +538,20 @@ select:focus-visible {
     line-height: 1.25em;
     width: 80dvw;
   }
+  .margin-left-mobile {
+    margin-left: 1em;
+  }
 
+}
+
+@media (width <= 1200px) {
+  .banner-text{
+    font-size: 4em;
+  }
+  .mobile-hidden {
+    display: none;
+  }
+  .mobile-show {
+    display: block;
+  }
 }
