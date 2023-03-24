@@ -2,9 +2,6 @@
 import LanguageContext from "../../../Context/LanguageContext";
 import { useContext } from "react";
 
-//import motion//
-import { motion } from "framer-motion"
-
 export const Section = () => {
     const {texts} = useContext(LanguageContext)
     return (
