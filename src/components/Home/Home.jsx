@@ -1,6 +1,7 @@
 import { Banner } from '../Banner/Banner';
 import { Downarrow } from '../DownArrow/DownArrow';
 import { Slider } from '../Slider/Slider';
+import {Section} from './Section/Section'
 
 export const Home = () => {
     return (
@@ -9,11 +10,14 @@ export const Home = () => {
                 <div className='container'>
                     <div className='front-content'>
                         <Slider />
-                        <Downarrow/>
+                        <Downarrow id={"s1"}/>
                     </div>
                     <div className='semi-circle'></div>
                 </div>
                <Banner/>
+               <Section/>
+
+               
             </div>
         </div>
     );

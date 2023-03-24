@@ -12,7 +12,8 @@ export const translations = {
         homeTitlel5: "¡La receta para",
         homeTitlel6: "alcanzar el éxito!",
         sidebarText: "Agencia boutique de diseño web, marketing digital y redes sociales.",
-        banner: "Somos chipa agencia digital"
+        banner: "Somos chipa agencia digital",
+        sectionHome1: "Chipa es una agencia boutique de diseño web, marketing digital y redes sociales ubicada en Dublín y Buenos Aires."
     },
     en: {
         menuCat1: "Home",
@@ -27,6 +28,7 @@ export const translations = {
         homeTitlel5: "The recipe",
         homeTitlel6: "to achieve success!",
         sidebarText: "Boutique agency of web design, digital marketing, and social media.",
-        banner: "We are chipa digital agency"
+        banner: "We are chipa digital agency",
+        sectionHome1: "Chipa is a boutique agency for web design, digital marketing, and social media located in Dublin and Buenos Aires."
     },
 };

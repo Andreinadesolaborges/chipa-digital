@@ -45,9 +45,11 @@ h6 {
 }
 
 h1 {
-  font-size: 2.35em;
+  font-size: 2.65em;
+  line-height: 1.1em;
   font-family: "ExtraBold";
   margin: 0.1em;
+  letter-spacing: -0.01em;
 }
 
 .container {
@@ -172,6 +174,7 @@ li {
   font-family: "Heavy";
   font-size: 1.75em;
   line-height: 1.45em;
+  letter-spacing: -0.01em;
   color: #0E081A;
 }
 
@@ -309,6 +312,7 @@ select:focus-visible {
   color: #4A325B;
   transform: rotate(90deg);
   font-size: 0.8em;
+  letter-spacing: -0.01em;
   text-align: center;
   align-self: center;
   width: 500px;
@@ -403,6 +407,18 @@ select:focus-visible {
   animation-iteration-count: 1;
 }
 
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  66% { 
+  opacity:0; 
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
 /*Banner*/
 
 .banner {
@@ -419,20 +435,30 @@ select:focus-visible {
 .banner-text{
   color: #FECC3F;
   font-size: 6em;
+  letter-spacing: -0.01em;
 
 }
 
-@keyframes fadeInAnimation {
-  0% {
-      opacity: 0;
-  }
-  66% { 
-  opacity:0; 
-  }
-  100% {
-      opacity: 1;
-  }
+/* Section Home*/
+
+.section-home{
+  width: 100dvw;
+  height: 30dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  text-align: center;
 }
+
+.section-text {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  width: 60dvw;
+  letter-spacing: -0.01em;
+}
+
+
 
 
 
@@ -501,7 +527,13 @@ select:focus-visible {
   }
 
   .banner {
-    height: 10dvh;
+    height: 20dvh;
+  }
+
+  .section-text {
+    font-size: 1.15em;
+    line-height: 1.25em;
+    width: 80dvw;
   }
 
 }
