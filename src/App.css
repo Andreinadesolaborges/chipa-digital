@@ -50,6 +50,7 @@ h1 {
   font-family: "ExtraBold";
   margin: 0.1em;
   letter-spacing: -0.01em;
+  font-family: "Regular";
 }
 
 .container {
@@ -524,10 +525,6 @@ select:focus-visible {
 
   .banner-text{
     font-size: 1.5em;
-  }
-
-  .banner {
-    height: 20dvh;
   }
 
   .section-text {
