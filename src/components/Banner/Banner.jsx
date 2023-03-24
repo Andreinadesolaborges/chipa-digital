@@ -17,8 +17,8 @@ export const Banner = () => {
             }}>{texts.banner}</motion.h1>
                <motion.h1 className="banner-text mobile-show" initial="hidden" animate="visible" viewport={{ once: false, amount: 0.5 }} transition={{ ease: "easeOut", duration: 5, repeat: Infinity }} 
             variants={{
-                visible: {x: "-180dvw"},
-                hidden: {x: "180dvw"}
+                visible: {x: "-200dvw"},
+                hidden: {x: "200dvw"}
             }}>{texts.banner}</motion.h1>
         </div>
     );
