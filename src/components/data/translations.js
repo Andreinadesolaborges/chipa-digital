@@ -13,7 +13,9 @@ export const translations = {
         homeTitlel6: "alcanzar el éxito!",
         sidebarText: "Agencia boutique de diseño web, marketing digital y redes sociales.",
         banner: "Somos chipa agencia digital",
-        sectionHome1: "Chipa es una agencia boutique de diseño web, marketing digital y redes sociales ubicada en Dublín y Buenos Aires."
+        sectionHome1: "Chipa es una agencia boutique de diseño web, marketing digital y redes sociales ubicada en Dublín y Buenos Aires.",
+        sectionHome2: "Somos un equipo experto en la creación de estrategias a medida para las empresas, que atraen y retienen a sus públicos objetivos. ",
+        sectionHome3: "Contamos con la experiencia, el conocimiento y las herramientas digitales necesarias para ayudar a la evolución de los negocios a través de la creatividad. "
     },
     en: {
         menuCat1: "Home",
@@ -29,6 +31,8 @@ export const translations = {
         homeTitlel6: "to achieve success!",
         sidebarText: "Boutique agency of web design, digital marketing, and social media.",
         banner: "We are chipa digital agency",
-        sectionHome1: "Chipa is a boutique agency for web design, digital marketing, and social media located in Dublin and Buenos Aires."
+        sectionHome1: "Chipa is a boutique agency for web design, digital marketing, and social media located in Dublin and Buenos Aires.",
+        sectionHome2: "We are a team of experts in creating tailor-made strategies for companies that attract and retain their target audiences. ",
+        sectionHome3: "We have the experience, knowledge, and necessary digital tools to help evolve businesses through creativity. "
     },
 };

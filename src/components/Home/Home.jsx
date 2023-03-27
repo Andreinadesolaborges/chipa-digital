@@ -12,10 +12,10 @@ export const Home = () => {
                         <Slider />
                         <Downarrow id={"s1"}/>
                     </div>
-                    <div className='semi-circle'></div>
                 </div>
                <Banner/>
                <Section/>
+               
 
                
             </div>
