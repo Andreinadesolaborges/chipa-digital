@@ -736,7 +736,7 @@ button {
   }
 
   .section-text {
-    font-size: 1.25em;
+    font-size: 1.2em;
     line-height: 1.5em;
     width: 80dvw;
   }
@@ -746,7 +746,7 @@ button {
 
   h4 {
     font-family: "Regular";
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.4em;
     letter-spacing: -0.01em;
     margin: 0;
@@ -759,6 +759,7 @@ button {
     align-self: center;
     margin-left: 0vw;
     margin-left: 0dvw;
+    margin-top: 0.3em;
   }
   
   .img-text-flex{
@@ -773,6 +774,7 @@ button {
     width: 80dw;
     width: 80dvw;
     align-self: center;
+    margin-top: 0.3em;
   }
 
   .check-list li{
@@ -782,6 +784,10 @@ button {
     display: block;
     margin: 0.5em 0em;
   
+  }
+
+  .check-list {
+    margin-top: 0.3em;
   }
 
   .text-section-home-3{
