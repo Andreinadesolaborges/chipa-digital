@@ -789,6 +789,18 @@ button {
     width: 80dvw;
   }
 
+  .container{
+    background-attachment: unset;
+    background-position: center;
+  }
+
+  .section-home-2{
+   
+    background-attachment: unset;
+    background-position: center;
+  }
+  
+
 }
 
 @media (width <= 1200px) {
