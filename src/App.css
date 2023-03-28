@@ -536,7 +536,7 @@ select:focus-visible {
 }
 
 .section-home-img {
-  height: 300px;
+  height: 260px;
 }
 .container-img-section{
   width: 40dw;
@@ -606,7 +606,66 @@ select:focus-visible {
 .bold-h2 {
   color: #0E081A;
   font-family: "Heavy";
+  width: 80dw;
+  width: 80dvw;
 }
+
+/*Button*/
+
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 200px;
+  height: 60px;
+  padding: 0.9rem 2rem;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.05rem;
+  font-family: "Heavy";
+  font-size: 1em;
+  border-radius: 500px;
+  overflow: hidden;
+  background: white;
+  color: #0E081A;
+ }
+ 
+ button span {
+  position: relative;
+  z-index: 5;
+  transition: color 0.4s;
+ }
+ 
+ button:hover span {
+  color: #AD80CE;
+ }
+ 
+ button::before,
+ button::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+ }
+ 
+ button::before {
+  content: "";
+  background: #FECC3F;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+ }
+ 
+ button:hover::before {
+  transform: translate3d(100%, 0, 0);
+ }
+ 
 
 
 /*Media Queries*/
@@ -723,6 +782,11 @@ select:focus-visible {
     display: block;
     margin: 0.5em 0em;
   
+  }
+
+  .text-section-home-3{
+    width: 80dw;
+    width: 80dvw;
   }
 
 }

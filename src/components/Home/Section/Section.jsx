@@ -8,7 +8,8 @@ import chipa from '../../../img/chipa.png';
 //import framer motion//
 import { motion } from "framer-motion";
 
-
+//import link//
+import { Link } from 'react-router-dom';
 
 export const Section = () => {
     const { texts } = useContext(LanguageContext);
@@ -27,16 +28,17 @@ export const Section = () => {
                     </div>
                     <motion.h4 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="text-section-home-2">{texts.sectionHome3}</motion.h4>
                 </div>
-                <ul className="check-list">
+                <motion.ul initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="check-list">
                     <li><span className="check">✓</span> {texts.sectionHome4l1}</li>
                     <li><span className="check">✓</span> {texts.sectionHome4l2}</li>
                     <li><span className="check">✓</span> {texts.sectionHome4l3}</li>
-                </ul>
+                </motion.ul>
                 <Downarrow id={"s3"} color="white"/>
             </div>
             <div className="section-home-3" id="s3">
                 <motion.h4 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="text-section-home-3">{texts.sectionHome4}</motion.h4>
                 <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="bold-h2">{texts.sectionHome5}</motion.h2>
+                <Link to={"/contact"}><motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }}> <span>{texts.ctaHome}</span></motion.button></Link>
             </div>
         </>
     );
