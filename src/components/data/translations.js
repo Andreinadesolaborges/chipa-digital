@@ -15,7 +15,13 @@ export const translations = {
         banner: "Somos chipa agencia digital",
         sectionHome1: "Chipa es una agencia boutique de diseño web, marketing digital y redes sociales ubicada en Dublín y Buenos Aires.",
         sectionHome2: "Somos un equipo experto en la creación de estrategias a medida para las empresas, que atraen y retienen a sus públicos objetivos. ",
-        sectionHome3: "Contamos con la experiencia, el conocimiento y las herramientas digitales necesarias para ayudar a la evolución de los negocios a través de la creatividad. "
+        sectionHome3: "Contamos con la experiencia, el conocimiento y las herramientas digitales necesarias para ayudar a la evolución de los negocios a través de la creatividad. ",
+        sectionHome4l1: "delivery de calidad",
+        sectionHome4l2: "creatividad práctica",
+        sectionHome4l3: "foco en resultados",
+        sectionHome4: "Si estás buscando una web que refleje la verdadera esencia de tu marca, y una presencia online multicanal que conecte con tu target ",
+        sectionHome5: "¡Aterrizaste en el lugar correcto!",
+        ctaHome: "contáctanos"
     },
     en: {
         menuCat1: "Home",
@@ -33,6 +39,12 @@ export const translations = {
         banner: "We are chipa digital agency",
         sectionHome1: "Chipa is a boutique agency for web design, digital marketing, and social media located in Dublin and Buenos Aires.",
         sectionHome2: "We are a team of experts in creating tailor-made strategies for companies that attract and retain their target audiences. ",
-        sectionHome3: "We have the experience, knowledge, and necessary digital tools to help evolve businesses through creativity. "
+        sectionHome3: "We have the experience, knowledge, and necessary digital tools to help evolve businesses through creativity. ",
+        sectionHome4l1: "quality delivery",
+        sectionHome4l2: "practical creativity",
+        sectionHome4l3: "focus on results",
+        sectionHome4: "If you're looking for a website that reflects the true essence of your brand, and a multichannel online presence that connects with your target",
+        sectionHome5: "You landed in the right place!",
+        ctaHome: "contact us"
     },
 };

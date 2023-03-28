@@ -1,7 +1,7 @@
 import { Banner } from '../Banner/Banner';
 import { Downarrow } from '../DownArrow/DownArrow';
 import { Slider } from '../Slider/Slider';
-import {Section} from './Section/Section'
+import {Section} from './Section/Section';
 
 export const Home = () => {
     return (
@@ -15,9 +15,6 @@ export const Home = () => {
                 </div>
                <Banner/>
                <Section/>
-               
-
-               
             </div>
         </div>
     );
