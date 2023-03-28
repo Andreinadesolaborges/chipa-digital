@@ -719,7 +719,7 @@ button {
   }
 
   .section-home-img {
-    height: 180px;
+    height: 16g0px;
   }
   
 
@@ -766,6 +766,10 @@ button {
     flex-direction: column;
     width: 100dw;
     width: 100dvw;
+  }
+
+  .container-img-section{
+    margin-top: 0.3em;
   }
   
 
