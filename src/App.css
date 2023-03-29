@@ -52,10 +52,10 @@ h1 {
   letter-spacing: -0.01em;
 }
 
-.h2 {
+h2 {
   font-family: "Regular";
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 1.8em;
+  line-height: 1em;
   letter-spacing: -0.01em;
 }
 
@@ -82,8 +82,8 @@ h4 {
   background-image: url("../src/img/semi-circle-lila-oscuro-bg.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  
+  background-position: bottom;
+
 }
 
 .nav {
@@ -365,7 +365,7 @@ select:focus-visible {
   transform: translate(0%, 35%);
 }
 
-.background-c2{
+.background-c2 {
   background-color: #E3D6EA;
 }
 
@@ -386,7 +386,7 @@ select:focus-visible {
   height: 300px;
 }
 
-.icon-arrow{
+.icon-arrow {
   background: #E3D6EA;
   width: 35px;
   height: 35px;
@@ -399,11 +399,12 @@ select:focus-visible {
 }
 
 /*Slider*/
-.swiper, .swiper-container {
+.swiper,
+.swiper-container {
   width: 100dvw;
   height: 80dvh;
   /* Center slide text vertically */
-  display: flex !important; 
+  display: flex !important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -417,16 +418,16 @@ select:focus-visible {
   align-items: center;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   height: auto !important;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   background: #AD80CE !important;
   margin: 0.5em !important;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   transform: scale(1.5);
 }
 
@@ -437,13 +438,15 @@ select:focus-visible {
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
-  66% { 
-  opacity:0; 
+
+  66% {
+    opacity: 0;
   }
+
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -460,7 +463,7 @@ select:focus-visible {
   width: 100dvw;
 }
 
-.banner-text{
+.banner-text {
   color: #FECC3F;
   font-size: 6em;
   letter-spacing: -0.01em;
@@ -469,7 +472,7 @@ select:focus-visible {
 
 /* Section Home*/
 
-.section-home{
+.section-home {
   width: 100dvw;
   height: 50vh;
   height: 50dvh;
@@ -495,7 +498,7 @@ select:focus-visible {
   margin-left: 2em;
 }
 
-.section-home-2{
+.section-home-2 {
   text-align: center;
   min-height: 100vh;
   min-height: 100dvh;
@@ -511,11 +514,11 @@ select:focus-visible {
   background-image: url("../src/img/semi-circle-lila-bg.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
 }
 
 
-.text-section-home{
+.text-section-home {
   color: #4A325B;
   text-align: left;
   width: 40dw;
@@ -526,7 +529,7 @@ select:focus-visible {
   margin-top: 2em;
 }
 
-.img-text-flex{
+.img-text-flex {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -538,7 +541,8 @@ select:focus-visible {
 .section-home-img {
   height: 260px;
 }
-.container-img-section{
+
+.container-img-section {
   width: 40dw;
   width: 40dvw;
   display: flex;
@@ -547,7 +551,7 @@ select:focus-visible {
   margin-top: 2em;
 }
 
-.text-section-home-2{
+.text-section-home-2 {
   color: #4A325B;
   text-align: left;
   width: 40dw;
@@ -556,12 +560,12 @@ select:focus-visible {
   margin-top: 2em;
 }
 
-.check{
+.check {
   color: #AD80CE;
   font-family: "ExtraBold";
 }
 
-.check-list li{
+.check-list li {
   color: #0E081A;
   font-family: "ExtraBold";
   font-size: 0.8em;
@@ -574,7 +578,7 @@ select:focus-visible {
   margin-top: 2em;
 }
 
-.section-home-3{
+.section-home-3 {
   width: 100dvw;
   height: 100vh;
   height: 100dvh;
@@ -586,7 +590,7 @@ select:focus-visible {
   flex-direction: column;
 }
 
-.text-section-home-3{
+.text-section-home-3 {
   color: #4A325B;
   text-align: center;
   width: 40dw;
@@ -631,41 +635,59 @@ button {
   overflow: hidden;
   background: white;
   color: #0E081A;
- }
- 
- button span {
+}
+
+button span {
   position: relative;
   z-index: 5;
   transition: color 0.4s;
- }
- 
- button:hover span {
+}
+
+button:hover span {
   color: #AD80CE;
- }
- 
- button::before,
- button::after {
+}
+
+button::before,
+button::after {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 0;
- }
- 
- button::before {
+}
+
+button::before {
   content: "";
   background: #FECC3F;
   width: 120%;
   left: -10%;
   transform: skew(30deg);
   transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
- }
- 
- button:hover::before {
+}
+
+button:hover::before {
   transform: translate3d(100%, 0, 0);
- }
- 
+}
+
+.container-services-home {
+  text-align: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: #E3D6EA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  color: #0E081A;
+  letter-spacing: -0.01em;
+  overflow: hidden;
+  background-image: url("../src/img/semi-circle-blanco-bg.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
 
 
 /*Media Queries*/
@@ -709,6 +731,11 @@ button {
     font-size: 1.5em;
   }
 
+  h2{
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+
   li {
     font-size: 1.35em;
     line-height: 1.45em;
@@ -721,13 +748,13 @@ button {
   .section-home-img {
     height: 160px;
   }
-  
+
 
   .semi-circle {
     transform: translate(0%, 0%);
   }
 
-  .banner-text{
+  .banner-text {
     font-size: 1.5em;
   }
 
@@ -740,6 +767,7 @@ button {
     line-height: 1.5em;
     width: 80dvw;
   }
+
   .margin-left-mobile {
     margin-left: .8em;
   }
@@ -752,7 +780,7 @@ button {
     margin: 0;
   }
 
-  .text-section-home{
+  .text-section-home {
     text-align: center;
     width: 80dw;
     width: 80dvw;
@@ -761,19 +789,19 @@ button {
     margin-left: 0dvw;
     margin-top: 0.3em;
   }
-  
-  .img-text-flex{
+
+  .img-text-flex {
     flex-direction: column;
     width: 100dw;
     width: 100dvw;
   }
 
-  .container-img-section{
+  .container-img-section {
     margin-top: 0.3em;
   }
-  
 
-  .text-section-home-2{
+
+  .text-section-home-2 {
     text-align: center;
     width: 80dw;
     width: 80dvw;
@@ -781,45 +809,47 @@ button {
     margin-top: 0.3em;
   }
 
-  .check-list li{
+  .check-list li {
     color: #0E081A;
     font-family: "ExtraBold";
     font-size: 0.5em;
     display: block;
     margin: 0.5em 0em;
-  
+
   }
 
   .check-list {
     margin-top: 0.3em;
   }
 
-  .text-section-home-3{
+  .text-section-home-3 {
     width: 80dw;
     width: 80dvw;
   }
 
-  .container{
+  .container {
     background-attachment: unset;
     background-position: center;
   }
 
-  .section-home-2{
-   
+  .section-home-2 {
+
     background-attachment: unset;
     background-position: center;
   }
-  
+
 
 }
 
-@media (width <= 1200px) {
-  .banner-text{
+@media (width <=1200px) {
+  .banner-text {
     font-size: 4em;
   }
+
   .mobile-hidden {
     display: none;
   }
+
   .mobile-show {
     display: block;
   }

@@ -21,7 +21,10 @@ export const translations = {
         sectionHome4l3: "foco en resultados",
         sectionHome4: "Si estás buscando una web que refleje la verdadera esencia de tu marca, y una presencia online multicanal que conecte con tu target ",
         sectionHome5: "¡Aterrizaste en el lugar correcto!",
-        ctaHome: "contáctanos"
+        ctaHome: "contáctanos",
+        titleHomeServices:"Servicios",
+        textHomeServices:"¡Hacemos que tu empresa brille!"
+
     },
     en: {
         menuCat1: "Home",
@@ -45,6 +48,8 @@ export const translations = {
         sectionHome4l3: "focus on results",
         sectionHome4: "If you're looking for a website that reflects the true essence of your brand, and a multichannel online presence that connects with your target",
         sectionHome5: "You landed in the right place!",
-        ctaHome: "contact us"
+        ctaHome: "contact us",
+        titleHomeServices:"Services",
+        textHomeServices:"We make your business shine!"
     },
 };

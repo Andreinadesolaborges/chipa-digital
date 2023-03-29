@@ -2,6 +2,8 @@ import { Banner } from '../Banner/Banner';
 import { Downarrow } from '../DownArrow/DownArrow';
 import { Slider } from '../Slider/Slider';
 import {Section} from './Section/Section';
+import { Serviceshome } from './ServicesHome/ServicesHome';
+
 
 export const Home = () => {
     return (
@@ -15,6 +17,7 @@ export const Home = () => {
                 </div>
                <Banner/>
                <Section/>
+               <Serviceshome/>
             </div>
         </div>
     );

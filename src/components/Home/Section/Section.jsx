@@ -1,7 +1,10 @@
 //import language//
 import LanguageContext from "../../../Context/LanguageContext";
 import { useContext } from "react";
+
+//import component//
 import { Downarrow } from "../../DownArrow/DownArrow";
+
 //import img//
 import chipa from '../../../img/chipa.png';
 
@@ -39,6 +42,7 @@ export const Section = () => {
                 <motion.h4 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="text-section-home-3">{texts.sectionHome4}</motion.h4>
                 <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="bold-h2">{texts.sectionHome5}</motion.h2>
                 <Link to={"/contact"}><motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }}> <span>{texts.ctaHome}</span></motion.button></Link>
+                <Downarrow id={"s4"} color="white"/>
             </div>
         </>
     );
