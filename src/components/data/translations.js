@@ -23,7 +23,10 @@ export const translations = {
         sectionHome5: "¡Aterrizaste en el lugar correcto!",
         ctaHome: "contáctanos",
         titleHomeServices:"Servicios",
-        textHomeServices:"¡Hacemos que tu empresa brille!"
+        textHomeServices:"¡Hacemos que tu empresa brille!",
+        tabHomeS1: "Diseño",
+        tabHomeS2: "Marketing",
+        tabHomeS3: "Comunicación"
 
     },
     en: {
@@ -50,6 +53,11 @@ export const translations = {
         sectionHome5: "You landed in the right place!",
         ctaHome: "contact us",
         titleHomeServices:"Services",
-        textHomeServices:"We make your business shine!"
+        textHomeServices:"We make your business shine!",
+        tabHomeS1: "Design",
+        tabHomeS2: "Marketing",
+        tabHomeS3: "Communication"
+
+
     },
 };

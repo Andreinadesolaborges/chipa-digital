@@ -689,6 +689,84 @@ button:hover::before {
   background-position: bottom;
 }
 
+/*Tabs*/
+
+.container-tabs {
+  width: 60dw;
+  width: 60dvw;
+  margin: 0 auto;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tab-button::before{
+  content: "";
+  background: none;
+  width: 0%;
+  left: 0%;
+  transform: skew(0deg);
+  transition: transform 0.3s cubic-bezier(0.3, 1, 0.8, 1);
+  
+}
+
+.tab-button {
+  background-color: #E3D6EA;
+  border: none;
+  color: #0E081A;
+  cursor: pointer;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  height: 140px;
+  border-radius: 15px;
+  transition: all 0.5s ease-out;
+  font-size: 1.3em;
+  font-family: "ExtraBold";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+
+.tab-img{
+  margin-bottom: 0.5em;
+  height: 30px;
+}
+
+.tab-button:hover {
+  opacity: 0.7;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.tab-button:disabled {
+  background: white;
+  color: #0E081A ;
+}
+
+.title {
+  color: black;
+  font-size: medium;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tab-content {
+  padding: 50px 80px;
+  background-color: none;
+  font-weight: "Regular";
+  line-height: 1.2em;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+
+
 
 /*Media Queries*/
 @media (width <=768px) {
@@ -822,10 +900,7 @@ button:hover::before {
     margin-top: 0.3em;
   }
 
-  .text-section-home-3 {
-    width: 80dw;
-    width: 80dvw;
-  }
+
 
   .container {
     background-attachment: unset;
@@ -836,6 +911,23 @@ button:hover::before {
 
     background-attachment: unset;
     background-position: center;
+  }
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .tab-button{
+    flex-direction: row;
+    height: 50px;
+    font-size: 1em;
+  }
+  
+  .tab-img{
+    margin-bottom: 0;
+    margin-right: 10px;
+    height: 18px;
   }
 
 
@@ -856,5 +948,30 @@ button:hover::before {
 
   select {
     -webkit-appearance: menulist;
+  }
+
+  .tab-button{
+    flex-direction: row;
+    height: 50px;
+    font-size: 1em;
+  }
+  
+  .tab-img{
+    margin-bottom: 0;
+    margin-right: 10px;
+    height: 18px;
+  }
+
+  .container-tabs {
+    width: 80vw;
+    width: 80dvw;
+  }
+
+  .text-section-home-3 {
+    width: 80dw;
+    width: 80dvw;
+  }
+  .tab-content{
+    padding: 2em;
   }
 }
