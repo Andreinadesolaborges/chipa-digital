@@ -26,7 +26,20 @@ export const translations = {
         textHomeServices:"¡Hacemos que tu empresa brille!",
         tabHomeS1: "Diseño",
         tabHomeS2: "Marketing",
-        tabHomeS3: "Comunicación"
+        tabHomeS3: "Comunicación",
+        tabBtn: "ver más",
+        tabDesignT: "Sitio web",
+        tabDesignTx: "Diseñamos, desarrollamos e instalamos páginas web estéticas y funcionales para comunicar tu marca, productos o servicios.",
+        tabDesignT2: "Identidad Web",
+        tabDesignT2x: "Creamos desde cero o actualizamos la identidad digital de tu empresa para poder tener el sitio web de tus sueños.",
+        tabMarketingT: "Social media marketing",
+        tabMarketingTx: "Brindamos consultoría en redes sociales para que tu marca conecte con su comunidad objetivo. Ahorrá tiempo delegando en manos expertas la creación de contenido y moderación.",
+        tabMarketingT2: "Estrategia digital ",
+        tabMarketingT2x: "Inicial - Análisis de situación y desarrollo de metodologías prácticas para un buen desempeño en canales digitales. Incluye estrategia de posicionamiento en buscadores y pauta online para alcanzar al público correcto. En movimiento - Creamos el mix de prácticas digitales más afín a tu empresa. Ofrecemos la combinación ideal de Email Marketing, Growth Marketing, SEO, SEM, Social Listening, Customer Experience y UX-UI.",
+        tabCommT: " Creativa",
+        tabCommTx: "Asesoramos en redacción creativa para darle mayor dinamismo a tu ecosistema digital. Con este servicio gestionamos un manual de copywriting y capacitamos al equipo responsable de llevar la comunicación digital de tu empresa.",
+        tabCommT2: "Institucional",
+        tabCommT2x: "Sabemos lo desafiante que resulta para una empresa estar activos en las redes sociales. Hay comentarios negativos que pueden escalar y afectar a la reputación de tu marca si no son trabajados a tiempo. En respuesta a esto recomendamos nuestra consultoría en relaciones públicas digitales."
 
     },
     en: {
@@ -56,8 +69,20 @@ export const translations = {
         textHomeServices:"We make your business shine!",
         tabHomeS1: "Design",
         tabHomeS2: "Marketing",
-        tabHomeS3: "Communication"
-
+        tabHomeS3: "Communication",
+        tabBtn: "view more",
+        tabDesignT: "Website",
+        tabDesignTx: "We design, develop and install aesthetic and functional web pages to communicate your brand, products or services.",
+        tabDesignT2: "Web Identity",
+        tabDesignT2x: "We create from scratch or update the digital identity of your company in order to have the website of your dreams.",
+        tabMarketingT: "Social media marketing",
+        tabMarketingTx: "We provide consultancy in social networks so that your brand connects with its target community. Save time by delegating content creation and moderation to expert hands.",
+        tabMarketingT2: "Digital strategy",
+        tabMarketingT2x: "Initial - Situation analysis and development of practical methodologies for good performance in digital channels. Includes search engine positioning strategy and online guidelines to reach the right audience. On the move - We create the mix of digital practices that is most in tune with your company. We offer the ideal combination of Email Marketing, Growth Marketing, SEO, SEM, Social Listening, Customer Experience and UX-UI.",
+        tabCommT: "Creative",
+        tabCommTx: "We advise on creative writing to give your digital ecosystem more dynamism. With this service, we manage a copywriting manual and train the team responsible for carrying out your company's digital communication.",
+        tabCommT2: "Institutional",
+        tabCommT2x: "We know how challenging it is for a business to be active on social media. There are negative comments that can escalate and affect the reputation of your brand if they are not dealt with on time. In response to this we recommend our consultancy in digital public relations."
 
     },
 };

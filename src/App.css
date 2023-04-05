@@ -34,6 +34,9 @@
 
 p {
   font-size: 1em;
+  line-height: 1.45em;
+  color: #4A325B;
+  font-family: "Medium";
 }
 
 h6 {
@@ -83,6 +86,7 @@ h4 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
+  background-size: cover;
 
 }
 
@@ -515,6 +519,7 @@ select:focus-visible {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
+  background-size: cover;
 }
 
 
@@ -616,7 +621,7 @@ select:focus-visible {
 
 /*Button*/
 
-button {
+.yellow {
   outline: none;
   cursor: pointer;
   border: none;
@@ -637,18 +642,18 @@ button {
   color: #0E081A;
 }
 
-button span {
+.yellow span {
   position: relative;
   z-index: 5;
   transition: color 0.4s;
 }
 
-button:hover span {
+.yellow:hover span {
   color: #AD80CE;
 }
 
-button::before,
-button::after {
+.yellow::before,
+.yellow::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -657,7 +662,7 @@ button::after {
   z-index: 0;
 }
 
-button::before {
+.yellow::before {
   content: "";
   background: #FECC3F;
   width: 120%;
@@ -666,7 +671,7 @@ button::before {
   transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
 }
 
-button:hover::before {
+.yellow:hover::before {
   transform: translate3d(100%, 0, 0);
 }
 
@@ -674,6 +679,7 @@ button:hover::before {
   text-align: center;
   min-height: 100vh;
   min-height: 100dvh;
+  padding: 2em;
   background: #E3D6EA;
   display: flex;
   flex-direction: column;
@@ -687,6 +693,7 @@ button:hover::before {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
+  background-size: cover;
 }
 
 /*Tabs*/
@@ -765,6 +772,74 @@ button:hover::before {
   text-align: left;
 }
 
+/*Tab content*/
+
+.number-img {
+  height: 40px;
+  margin-top: 1.5em;
+  display: block;
+}
+
+.tab-content-btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 140px;
+  height: 50px;
+  padding: 0.6rem 1.2rem;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.05rem;
+  font-family: "Heavy";
+  font-size: 1em;
+  border-radius: 500px;
+  overflow: hidden;
+  background: #AD80CE;
+  color: #AD80CE;
+  border: 2px solid #AD80CE;
+}
+
+.tab-content-btn span {
+  position: relative;
+  z-index: 5;
+  transition: color 0.4s;
+  font-family: "Light";
+}
+
+.tab-content-btn:hover span {
+  color: #ffffff;
+}
+
+.tab-content-btn::before,
+.tab-content-btn::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.tab-content-btn::before {
+  content: "";
+  background: white;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.tab-content-btn:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+
+.tab-content-title{
+ font-family: "Heavy";
+ color: #4A325B;
+}
 
 
 
@@ -928,6 +1003,13 @@ button:hover::before {
     margin-bottom: 0;
     margin-right: 10px;
     height: 18px;
+  }
+
+  .tab-content-btn {
+    font-size: .8em;
+    width: 120px;
+    height: 40px;
+    padding: 0.4rem 1rem;
   }
 
 
