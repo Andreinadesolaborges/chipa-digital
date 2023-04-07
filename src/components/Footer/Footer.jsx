@@ -1,4 +1,4 @@
-import { useState, useContext } from 'react';
+import {useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { Social } from '../Navbar/Social/Social';
