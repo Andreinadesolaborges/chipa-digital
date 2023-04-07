@@ -61,7 +61,7 @@ export const TabServiceHome = () => {
                     <button  className='tab-button' key={i} id={tab.id} disabled={currentTab === `${tab.id}`} onClick={(handleTabClick)}>
                         <img className="tab-img" src={`../img/${tab.img}`} alt="img"/>
                         {tab.tabTitle}
-                        </button>
+                    </button>
                     
                 )}
             </div>

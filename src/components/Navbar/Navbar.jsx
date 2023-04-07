@@ -5,7 +5,7 @@ import close from '../../img/close.svg';
 import { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
-import { Social } from './Social/Social';
+import { SocialContainer } from './SocialContainer/SocialContainer';
 import LanguageContext from '../../Context/LanguageContext';
 import { LanguageSelect } from './LanguageSelect/LanguageSelect';
 
@@ -42,7 +42,7 @@ export const Navbar = () => {
                             <Link onClick={() => setNavOpen(!navOpen)} to={"/contact"}><motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: 1.2  }} viewport={{ once: true }}>{texts.menuCat4}</motion.li></Link>
                         </ul>
                     </div>
-                    <Social />
+                    <SocialContainer/>
                 </div>
             </div>
         </>

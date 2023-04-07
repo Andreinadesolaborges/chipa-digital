@@ -9,8 +9,8 @@ export const Home = () => {
     return (
         <div>
             <div className="App">
-                <div className='container'>
-                    <div className='front-content'>
+                <div className="container" id="top">
+                    <div className="front-content">
                         <Slider />
                         <Downarrow id={"s1"}/>
                     </div>

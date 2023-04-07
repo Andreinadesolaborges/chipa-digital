@@ -15,6 +15,7 @@ import { Contact } from './components/Contact/Contact';
 import { LanguageProvider } from './Context/LanguageContext';
 import { Sidebar } from './components/Sidebar/Sidebar';
 import {ScrollToTop} from './components/ScrollToTop/ScrollToTop';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/services' element={<Services />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
+        <Footer/>
       </LanguageProvider>
     </BrowserRouter>
   );
