@@ -40,7 +40,10 @@ export const translations = {
         tabCommTx: "Asesoramos en redacción creativa para darle mayor dinamismo a tu ecosistema digital. Con este servicio gestionamos un manual de copywriting y capacitamos al equipo responsable de llevar la comunicación digital de tu empresa.",
         tabCommT2: "Institucional",
         tabCommT2x: "Sabemos lo desafiante que resulta para una empresa estar activos en las redes sociales. Hay comentarios negativos que pueden escalar y afectar a la reputación de tu marca si no son trabajados a tiempo. En respuesta a esto recomendamos nuestra consultoría en relaciones públicas digitales.",
-        ctaFooter: "empecemos"
+        ctaFooter: "empecemos",
+        aboutTitle: "Manifiesto",
+        aboutMiniSub: "En chipa agencia digital",
+        aboutSubtitle: "CREAMOS EXPERIENCIAS DIGITALES ÚNICAS"
     },
     en: {
         menuCat1: "Home",
@@ -83,6 +86,9 @@ export const translations = {
         tabCommTx: "We advise on creative writing to give your digital ecosystem more dynamism. With this service, we manage a copywriting manual and train the team responsible for carrying out your company's digital communication.",
         tabCommT2: "Institutional",
         tabCommT2x: "We know how challenging it is for a business to be active on social media. There are negative comments that can escalate and affect the reputation of your brand if they are not dealt with on time. In response to this we recommend our consultancy in digital public relations.",
-        ctaFooter: "let's begin"
+        ctaFooter: "let's begin",
+        aboutTitle: "Manifest",
+        aboutMiniSub: "At chipa digital agency",
+        aboutSubtitle: "WE CREATE UNIQUE DIGITAL EXPERIENCES"
     },
 };

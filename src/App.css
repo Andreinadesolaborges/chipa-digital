@@ -608,6 +608,10 @@ select:focus-visible {
   background: white;
 }
 
+.black-bg {
+  background: black;
+}
+
 .lila-bg {
   background: #E3D6EA;
 }
@@ -921,6 +925,72 @@ select:focus-visible {
   height: 80px;
 }
 
+/* About*/
+.about-title{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.h1-big-outline{
+  color: #E3D6EA;
+  font-size: 18em;
+  text-shadow: 0 0 3px #4A325B, 0 0 3px #4A325B, 0 0 3px #4A325B, 0 0 3px #4A325B;
+  margin: 0;
+  margin-left: 32px;
+}
+
+
+.mini-sub{
+  color: #4A325B;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.line {
+  height: 1px;
+  width: 80px;
+  background: #4A325B;
+}
+
+.mini-container{
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 32px;
+}
+
+.about-subtitle{
+  align-self: flex-start;
+  margin-top: 0.5em;
+  width: 30dvw;
+  text-align: left;
+}
+
+.subtile-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  width: 100dvw;
+}
+
+.about-container {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: #0E081A;
+  overflow: hidden;
+  background-image: url("../src/img/semi-circle-morado-bg.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+}
 
 /*Media Queries*/
 @media (width <=768px) {
@@ -1112,9 +1182,46 @@ select:focus-visible {
     align-items: center;
   }
 
+  .h1-big-outline {
+    font-size: 3.2em;
+    margin-left: 0;
+  }
+  .about-subtitle{
+    width: 100dvw;
+    text-align: center;
+  }
+
+  .line{
+    width: 40px;
+  }
+
+  .mobile-hidden{
+    display: none;
+  }
+  .mobile-show {
+    display: block;
+  }
+
+  .subtile-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+  .about-title{
+    align-items: center;
+  }
+
+  .mini-container{
+    align-self: center;
+    margin-left: 0;
+  }
+
+
 }
 
-@media (width <=1200px) {
+@media screen and (min-width: 769px) and (max-width: 1199px) {
   .banner-text {
     font-size: 4em;
   }
@@ -1156,4 +1263,19 @@ select:focus-visible {
   .tab-content {
     padding: 2em;
   }
+
+  .h1-big-outline {
+    font-size: 8em;
+  }
+  .about-subtitle{
+    width: 45dvw;
+  }
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1515px){
+  .h1-big-outline {
+    font-size: 12em;
+  }
+}
+
+
