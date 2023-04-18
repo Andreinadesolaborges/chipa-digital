@@ -7,13 +7,14 @@ import { motion } from "framer-motion";
 
 //import Component
 import { Downarrow } from "../DownArrow/DownArrow";
+import { Manifest } from "./Manifest/Manifest";
 
 
 export const About = () => {
     const { texts } = useContext(LanguageContext);
     return (
         <div>
-            <div className="App">
+            <div className="App" id="top">
                 <div className="container about-title">
                     <motion.h1 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="h1-big-outline">{texts.aboutTitle}</motion.h1>
                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="mini-container">
@@ -26,9 +27,7 @@ export const About = () => {
                     <Downarrow id={"about-1"} color="black"/>
                     </motion.div>
                 </div>
-                <div className="about-container" id="about-1">
-
-                </div>
+                <Manifest/>
             </div>
         </div>
     );

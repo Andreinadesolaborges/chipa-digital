@@ -387,7 +387,7 @@ select:focus-visible {
 }
 
 .hero-img {
-  height: 300px;
+  height: 420px;
 }
 
 .icon-arrow {
@@ -992,6 +992,131 @@ select:focus-visible {
   background-size: cover;
 }
 
+.about-margin{
+  margin: 2em;
+  margin-top: 4em;
+  margin-bottom: 0;
+}
+
+.about-text{
+  color: #ffffff;
+  text-align: left;
+  font-size: 2em;
+  line-height: 2.12em;
+}
+
+.about-margin-text{
+  margin-bottom: 2em;
+}
+
+.line-100 {
+  height: 1px;
+  width: 100%;
+  background: #E3D6EA;
+  align-self: center;
+}
+
+.about-flexbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  width: 100dvw;
+}
+
+
+.about-img-container{
+  width: 30vw;
+  width: 30dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.about-img {
+  height: 420px;
+}
+
+.about-manifest{
+  color: #E3D6EA;
+  width: 30vw;
+  width: 30dvw;
+  line-height: 1.2em;
+  text-align: left;
+  margin-bottom: 2em;
+}
+
+.chipa-recipe{
+  width: 60vw;
+  width: 60dvw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 20dvw;
+}
+
+.recipe-text{
+  color: #FECC3F;
+  margin-bottom: 1em;
+}
+
+.recipe-text-w{
+  color: white;
+  margin-bottom: 1em;
+}
+
+.recipe-ingredient{
+  color: #E3D6EA;
+  font-family: 'Regular';
+  font-size: 1.4em;
+  line-height: 1.4em;
+  list-style-type: circle;
+}
+
+.recipe-ingredient:hover {
+  transition: none;
+  color: #E3D6EA;
+}
+
+.recipe-ingredient:active{
+  list-style-type: circle;
+  text-decoration: none;
+  color: #E3D6EA;
+}
+
+.list-ingredients{
+  margin-bottom: 1em;
+}
+
+.prep-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.prep-text{
+  color: #ffffff;
+  margin-left: 1em;
+}
+
+.about-flex-cta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 4em;
+}
+
+.about-cta-margin{
+  margin-bottom: 1em;
+}
+
 /*Media Queries*/
 @media (width <=768px) {
   /* styles for viewports <= 320px */
@@ -1218,6 +1343,48 @@ select:focus-visible {
     margin-left: 0;
   }
 
+  .about-text{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.45em;
+  }
+
+  .about-flexbox{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-manifest{
+    color: #E3D6EA;
+    width: 80vw;
+    width: 80dvw;
+    text-align: center;
+  }
+
+  .about-img-container{
+    width: 80vw;
+    width: 80dvw;
+  }
+
+  .about-img {
+    height: 320px;
+  }
+
+  .recipe-ingredient{
+    color: #E3D6EA;
+    font-family: 'Regular';
+    font-size: 0.8em;
+    line-height: 1.4em;
+    list-style-type: circle;
+  }
+  
+  .chipa-recipe{
+    width: 80vw;
+    width: 80dvw;
+    margin-left: 10vw;
+    margin-left: 10dvw;
+  }
 
 }
 
@@ -1269,6 +1436,10 @@ select:focus-visible {
   }
   .about-subtitle{
     width: 45dvw;
+  }
+
+  .hero-img {
+    height: 320px;
   }
 }
 
