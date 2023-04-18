@@ -294,7 +294,7 @@ a {
 button,
 select {
   text-transform: none;
-  background: none;
+  background: rgba(0, 0, 0, 0.005); 
   border: none;
   width: 44px;
   height: 44px;
