@@ -28,6 +28,10 @@
     url("./fonts/GreycliffCF-Regular.ttf") format("truetype");
 }
 
+#input_11, #input_13 {
+  -webkit-appearance: menulist;
+  }
+
 .App {
   color: #0E081A;
 }
