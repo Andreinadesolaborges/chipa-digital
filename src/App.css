@@ -1386,6 +1386,20 @@ select:focus-visible {
     margin-left: 10dvw;
   }
 
+  .container-tabs {
+    width: 80vw;
+    width: 80dvw;
+  }
+
+  .text-section-home-3 {
+    width: 80dw;
+    width: 80dvw;
+  }
+
+  .tab-content {
+    padding: 2em;
+  }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {
