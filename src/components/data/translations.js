@@ -62,7 +62,11 @@ export const translations = {
         prep4: "Pasado ese tiempo, retiramos la masa y vamos a formar las bolitas del chipa.",
         prep5: "Colocar las bolitas de chipa en una placa, introducirlas en una sartén y cocinarlas durante 10 minutos en un horno precalentado a 180°.",
         aboutCTA: "¿Listo para probar esta delicia?",
-       aboutTeamTitle: "Equipo"
+       aboutTeamTitle: "Equipo",
+       aboutTeamSub: "Somos un equipo apasionado por el mundo digital y amante del chipa.",
+       aboutTeamJobs: "Gerente de proyectos digitales",
+       aboutTeamJobs1: "Diseñadora gráfica y web",
+       aboutTeamJobs2: "Creador de contenido"
     },
     en: {
         menuCat1: "Home",
@@ -127,7 +131,11 @@ export const translations = {
         prep4: "After that time, we remove the dough and we are going to form the chipa balls.",
         prep5: "Place the chipa balls on a plate, put them in a frying pan and cook them for 10 minutes in a preheated oven at 180°.",
         aboutCTA: "Ready to try this delight?",
-        aboutTeamTitle: "Team"
+        aboutTeamTitle: "Team",
+        aboutTeamSub: "We are a team passionate about the digital world and chipa lover.",
+        aboutTeamJobs: "Digital Project Manager",
+       aboutTeamJobs1: "Graphic & Web Designer",
+       aboutTeamJobs2: "Content Creator"
            
     },
 };

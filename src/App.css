@@ -1121,6 +1121,12 @@ select:focus-visible {
   margin-bottom: 1em;
 }
 
+/*Team*/
+
+.team-text {
+  text-align: center;
+  margin: 2em;
+}
 .team-container {
   display: flex;
   flex-direction: column;
@@ -1129,6 +1135,71 @@ select:focus-visible {
   min-height: 100vh;
   min-height: 100dvh;
   background: #ffffff;
+  padding-top: 4em;
+}
+               
+.team-card-container{
+margin-bottom: 4em;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  width: 25vw;
+  width: 25dvw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 40px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  /* Shadow-light */
+  box-shadow: 0px 15px 40px -7px rgba(227, 214, 234, 0.35);
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.img-card{
+  width: 100%;
+  align-self: center;
+}
+
+.card-text {
+  font-family: "Heavy";
+  color: #0E081A;
+  margin: 0;
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.card-job{
+  margin: 0;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.card-social{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+
+.round-cicle {
+  background: #E3D6EA;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.25em;
 }
 
 /*Media Queries*/
@@ -1417,7 +1488,17 @@ select:focus-visible {
   .tab-content {
     padding: 2em;
   }
-
+  .team-card-container{
+    margin-bottom: 4em;
+    flex-direction: column;
+  }
+  .card-container {
+    display: flex;
+    width: 60vw;
+    width: 60dvw;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {
