@@ -1136,6 +1136,12 @@ select:focus-visible {
   min-height: 100dvh;
   background: #ffffff;
   padding-top: 4em;
+  overflow: hidden;
+  background-image: url("../src/img/semi-circle-lila-bg.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
 }
                
 .team-card-container{
