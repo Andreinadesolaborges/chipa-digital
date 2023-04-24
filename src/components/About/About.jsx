@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 //import Component
 import { Downarrow } from "../DownArrow/DownArrow";
 import { Manifest } from "./Manifest/Manifest";
-
+import { Team } from "./Team/Team";
 
 export const About = () => {
     const { texts } = useContext(LanguageContext);
@@ -28,6 +28,7 @@ export const About = () => {
                     </motion.div>
                 </div>
                 <Manifest/>
+                <Team/>
             </div>
         </div>
     );

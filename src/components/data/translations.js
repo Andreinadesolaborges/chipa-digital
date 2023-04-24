@@ -61,8 +61,8 @@ export const translations = {
         prep3: "Extraer el contenido del bowl y amasar hasta que esté bien integrado. Luego, envolver con un film y llevarlo a descansar a la heladera durante 30 minutos.",
         prep4: "Pasado ese tiempo, retiramos la masa y vamos a formar las bolitas del chipa.",
         prep5: "Colocar las bolitas de chipa en una placa, introducirlas en una sartén y cocinarlas durante 10 minutos en un horno precalentado a 180°.",
-        aboutCTA: "¿Listo para probar esta delicia?"
-       
+        aboutCTA: "¿Listo para probar esta delicia?",
+       aboutTeamTitle: "Equipo"
     },
     en: {
         menuCat1: "Home",
@@ -126,7 +126,8 @@ export const translations = {
         prep3: "Extract the contents of the bowl and knead until well integrated. Then wrap with a film and take it to rest in the fridge for 30 minutes.",
         prep4: "After that time, we remove the dough and we are going to form the chipa balls.",
         prep5: "Place the chipa balls on a plate, put them in a frying pan and cook them for 10 minutes in a preheated oven at 180°.",
-        aboutCTA: "Ready to try this delight?"
+        aboutCTA: "Ready to try this delight?",
+        aboutTeamTitle: "Team"
            
     },
 };
