@@ -72,6 +72,7 @@ h4 {
   font-size: 1.2em;
   line-height: 1.4em;
   letter-spacing: -0.01em;
+  color: #4A325B;
 }
 
 .container {
@@ -1208,6 +1209,88 @@ justify-content: center;
   margin: 0.25em;
 }
 
+
+/*Services*/
+.container-services{
+    text-align: center;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: #0E081A;
+    letter-spacing: -0.01em;
+    overflow: hidden;
+    background-image: url("../src/img/semi-circle-lila-oscuro-bg.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 20dvh;
+}
+
+.services-title{
+  align-self: center;
+}
+
+.services-detail-container{
+  text-align: center;
+  width: 100vw;
+  width: 100dvw;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  color: #4A325B;
+  letter-spacing: -0.01em;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  background-image: url("../src/img/semi-circle-lila-bg.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.section-service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.service-img{
+  height: 360px;
+}
+
+.service-cont {
+  width: 40vw;
+  width: 40dvw;
+}
+
+.service-cont-2 {
+  width: 80vw;
+  width: 80dvw;
+}
+
+.margin-cta {
+margin-top: 2em;
+}
+
 /*Media Queries*/
 @media (width <=768px) {
   /* styles for viewports <= 320px */
@@ -1296,6 +1379,7 @@ justify-content: center;
     line-height: 1.4em;
     letter-spacing: -0.01em;
     margin: 0;
+    color: #4A325B;
   }
 
   .text-section-home {
@@ -1505,6 +1589,23 @@ justify-content: center;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
   }
+  .service-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .service-img{
+    height: 260px;
+    align-self: center;
+  }
+  
+  .service-cont {
+    width: 80vw;
+    width: 80dvw;
+  }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {

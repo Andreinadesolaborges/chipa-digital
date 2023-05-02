@@ -18,7 +18,7 @@ export const Team = () => {
             <div className="team-card-container">
                 <Profilecard img={placeholder} alt={"placeholder"} name={"Luz Casanova"} job={texts.aboutTeamJobs} mail={"mailto:casanovaluz94@gmail.com"} link={"https://www.linkedin.com/in/luz-casanova/"} ig={"https://www.instagram.com/cationax/"}/>
                 <Profilecard img={placeholder} alt={"placeholder"} name={"Andreina De Sola"} job={texts.aboutTeamJobs1} mail={"mailto:andreinadesola@gmail.com"} link={"https://www.linkedin.com/in/andreina-de-sola/"} ig={"https://www.instagram.com/andreinadesola/"}/>
-                <Profilecard img={placeholder} alt={"placeholder"} name={"Luigi Casanova"} job={texts.aboutTeamJobs2} mail={"mailto:"} link={"https://www.linkedin.com/in/"} ig={"https://www.instagram.com/"}/>
+                <Profilecard img={placeholder} alt={"placeholder"} name={"Luigi Casanova"} job={texts.aboutTeamJobs2} mail={"mailto:luismcasanova98@gmail.com"} link={"https://www.linkedin.com/in/luis-manuel-casanova/"} ig={"https://www.instagram.com/luiscasanova12/"}/>
             </div>
         </div>
     );

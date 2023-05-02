@@ -66,7 +66,12 @@ export const translations = {
        aboutTeamSub: "Somos un equipo apasionado por el mundo digital y amante del chipa.",
        aboutTeamJobs: "Gerente de proyectos digitales",
        aboutTeamJobs1: "Diseñadora gráfica y web",
-       aboutTeamJobs2: "Creador de contenido"
+       aboutTeamJobs2: "Creador de contenido",
+       servicesTitle: "Servicios",
+       servicesDesignTitle: "Diseños web customizados con identidades que brillan.",
+       servicesDesignCopy: "En nuestra agencia creativa digital, creamos identidades de marca y sitios web que destacan. Combinando ingredientes de calidad: personalización, empatía y creatividad logramos la receta ideal para tu negocio.",
+       servicesDesignCopy2:"Somos un equipo de nómadas digitales con más de 10 años de experiencia en Diseño, Marketing Digital y Comunicación Estratégica. Trabajamos activamente para ofrecer servicios frescos, sostenibles y futuristas, que además de ser deliveries estéticos generan resultados.",
+       servicesCTA: "La receta para alcanzar el éxito de tu marca. Creamos tu identidad digital y potenciamos su alcance."
     },
     en: {
         menuCat1: "Home",
@@ -135,7 +140,12 @@ export const translations = {
         aboutTeamSub: "We are a team passionate about the digital world and chipa lover.",
         aboutTeamJobs: "Digital Project Manager",
        aboutTeamJobs1: "Graphic & Web Designer",
-       aboutTeamJobs2: "Content Creator"
+       aboutTeamJobs2: "Content Creator",
+       servicesTitle: "Services",
+       servicesDesignTitle: "Customized Web Designs with Shining Identities.",
+       servicesDesignCopy: "In our creative digital agency, we create brand identities and websites that stand out. Combining high-quality ingredients: customization, empathy, and creativity, we achieve the perfect recipe for your business.",
+       servicesDesignCopy2:"We are a team of digital nomads with over 10 years of experience in Design, Digital Marketing, and Strategic Communication. We actively work to provide fresh, sustainable, and futuristic services that not only deliver aesthetic appeal but also generate results.",
+       servicesCTA: "The recipe for achieving success for your brand. We create your digital identity and enhance its reach."
            
     },
 };
