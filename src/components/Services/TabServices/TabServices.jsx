@@ -9,6 +9,7 @@ import { motion } from 'framer-motion';
 
 //import Link//
 import { Link } from 'react-router-dom';
+import { Downarrow } from '../../DownArrow/DownArrow';
 
 
 
@@ -42,10 +43,10 @@ export const Tabservices = () => {
             img2: '2.svg',
             title2: `${texts.tabMarketingT2}`,
             content2: `${texts.tabMarketingT2x}`,
-            titleS2: `${texts.servicesDesignTitle}`,
-            contentS2one: `${texts.servicesDesignCopy}`,
-            contentS2two: `${texts.servicesDesignCopy2}`,
-            imgS2: 'card-service.png',
+            titleS2: `${texts.servicesMktTitle}`,
+            contentS2one: `${texts.servicesMktCopy}`,
+            contentS2two: `${texts.servicesMktCopy2}`,
+            imgS2: 'card-service2.png',
             cta: `${texts.servicesCTA}`,
         },
         {
@@ -58,10 +59,10 @@ export const Tabservices = () => {
             img2: '2.svg',
             title2: `${texts.tabCommT2}`,
             content2: `${texts.tabCommT2x}`,
-            titleS2: `${texts.servicesDesignTitle}`,
-            contentS2one: `${texts.servicesDesignCopy}`,
-            contentS2two: `${texts.servicesDesignCopy2}`,
-            imgS2: 'card-service.png',
+            titleS2: `${texts.servicesCommTitle}`,
+            contentS2one: `${texts.servicesCommCopy}`,
+            contentS2two: `${texts.servicesCommCopy2}`,
+            imgS2: 'card-service3.png',
             cta: `${texts.servicesCTA}`,
         
         }
@@ -94,6 +95,7 @@ export const Tabservices = () => {
                                     <img className="number-img" src={`../img/${tab.img2}`} alt="img" />
                                     <h2 className='tab-content-title'>{tab.title2}</h2>
                                     <p>{tab.content2}</p>
+                                    <Downarrow id={"service"} color={"white"}/>
                                 </motion.div>}
                         </div>
                     )}
@@ -103,11 +105,11 @@ export const Tabservices = () => {
            {tabs.map((tab, i) =>
                     <div key={i}>
                         {currentTab === `${tab.id}` &&
-                            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="section-service">
+                            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="section-service" id="service">
                                 <h2 className="bold service-cont-2">{tab.titleS2}</h2>
                                 <div className="service-content">
                                     <h4 className="service-cont">{tab.contentS2one}</h4>
-                                    <div className="service-cont"><img className="service-img" src={`../img/${tab.imgS2}`} alt="img" /></div>
+                                    <div className="service-cont"><motion.img whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="service-img" src={`../img/${tab.imgS2}`} alt="img" /></div>
                                 </div>
                                 <h4 className="service-cont-2">{tab.contentS2two}</h4>
                                 <h2 className="bold service-cont-2 margin-cta">{tab.cta}</h2>
