@@ -77,7 +77,12 @@ export const translations = {
         servicesMktCopy2: " ¡Deléitate con nuestro mix de prácticas digitales y saborea el éxito! Nuestro equipo de expertos cocinará a fuego lento la combinación ideal de Email Marketing, Growth Marketing, SEO, SEM, Social Listening, Customer Experience y UX/UI, para llevar tu empresa al siguiente nivel. ¡No esperes más, atrévete a probar nuestro exquisito Chipa Digital y sorprende a tus clientes con una experiencia irresistible!",
         servicesCommTitle: "Potencia tu presencia digital con nuestro asesoramiento en redacción creativa y consultoría en relaciones públicas.",
         servicesCommCopy: "Dale vida a tu ecosistema digital con un toque de creatividad. Nuestro servicio de asesoramiento en redacción creativa te ayudará a dinamizar la comunicación de tu empresa. Desde la creación de un manual de copywriting hasta la capacitación de tu equipo, cocinaremos tus ideas para que tu mensaje sea atractivo y cautivador. No dejes que tu presencia digital sea insípida, reserva tu lugar en nuestra cocina creativa y despierta el interés de tus clientes.",
-        servicesCommCopy2: "En el mundo digital, los comentarios negativos pueden propagarse rápidamente y afectar la reputación de tu marca. No permitas que una crisis online te afecte. Nuestra consultoría en relaciones públicas digitales te brindará las herramientas necesarias para gestionar y manejar esos comentarios a tiempo. Deja que nuestro equipo de expertos sea tu aliado digital y prepare una estrategia infalible para proteger la imagen de tu marca. No esperes más, reserva ahora y saborea el éxito en el mundo digital."
+        servicesCommCopy2: "En el mundo digital, los comentarios negativos pueden propagarse rápidamente y afectar la reputación de tu marca. No permitas que una crisis online te afecte. Nuestra consultoría en relaciones públicas digitales te brindará las herramientas necesarias para gestionar y manejar esos comentarios a tiempo. Deja que nuestro equipo de expertos sea tu aliado digital y prepare una estrategia infalible para proteger la imagen de tu marca. No esperes más, reserva ahora y saborea el éxito en el mundo digital.",
+        contactTitle: "Contacto",
+        contactCTA: "Contáctanos:",
+        contactForm1: "Nombre y Apellido",
+        contactForm2: "Mensaje",
+        contactFormTitle: "¿Estas listo para crear?"
     },
     en: {
         menuCat1: "Home",
@@ -157,7 +162,11 @@ export const translations = {
         servicesMktCopy2: "Indulge in our blend of digital practices and taste success! Our team of experts will slow-cook the perfect combination of Email Marketing, Growth Marketing, SEO, SEM, Social Listening, Customer Experience, and UX/UI to take your company to the next level. Don't wait any longer, dare to try our exquisite Digital Chipa and surprise your customers with an irresistible experience!",
         servicesCommTitle: "Boost your digital presence with our creative writing consultancy and public relations consulting.",
         servicesCommCopy: "Bring your digital ecosystem to life with a touch of creativity. Our creative writing consultancy service will help you energize your company's communication. From creating a copywriting manual to training your team, we will cook up your ideas to make your message engaging and captivating. Don't let your digital presence be bland, reserve your spot in our creative kitchen and spark the interest of your clients.",
-        servicesCommCopy2: "In the digital world, negative comments can spread rapidly and affect your brand's reputation. Don't let an online crisis impact you. Our digital public relations consulting will provide you with the necessary tools to manage and handle those comments in a timely manner. Let our team of experts be your digital ally and prepare an infallible strategy to protect your brand's image. Don't wait any longer, reserve now and savor success in the digital world."
-
+        servicesCommCopy2: "In the digital world, negative comments can spread rapidly and affect your brand's reputation. Don't let an online crisis impact you. Our digital public relations consulting will provide you with the necessary tools to manage and handle those comments in a timely manner. Let our team of experts be your digital ally and prepare an infallible strategy to protect your brand's image. Don't wait any longer, reserve now and savor success in the digital world.",
+        contactTitle: "Contact",
+        contactCTA: "Get in touch:",
+        contactForm1: "Full name",
+        contactForm2: "Message",
+        contactFormTitle: "Ready to create?"
     },
 };

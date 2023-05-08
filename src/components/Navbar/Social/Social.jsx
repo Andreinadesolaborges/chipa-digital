@@ -1,7 +1,7 @@
 import instagram from '../../../img/instagram.svg';
 import linkedin from '../../../img/linkedin.svg';
 import tiktok from '../../../img/tiktok.svg';
-import chat from '../../../img/wsp.svg'
+import chat from '../../../img/wsp.svg';
 import { motion } from "framer-motion";
 
 export const Social = () => {

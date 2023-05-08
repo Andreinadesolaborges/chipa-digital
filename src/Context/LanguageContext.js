@@ -4,7 +4,7 @@ import { translations } from "../components/data/translations.js";
 
 const LanguageContext = createContext();
 
-const initialLanguage = "es";
+const initialLanguage = "en";
 
 
 const LanguageProvider = ({ children }) => {
