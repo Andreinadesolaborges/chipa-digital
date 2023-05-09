@@ -13,9 +13,9 @@ import { Pagination } from "swiper";
 import { motion } from "framer-motion";
 
 //import images//
-import planeta from '../../img/chipa-planet.png';
-import bombillo from '../../img/chipa-bulb.png';
-import gato from '../../img/chipa-cat.png';
+import planeta from '../../img/chipa-planet.webp';
+import bombillo from '../../img/chipa-bulb.webp';
+import gato from '../../img/chipa-cat.webp';
 
 //import language//
 import LanguageContext from "../../Context/LanguageContext";

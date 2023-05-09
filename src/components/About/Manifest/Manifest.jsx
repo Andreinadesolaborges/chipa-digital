@@ -5,7 +5,7 @@ import { useContext } from "react";
 //import framer motion//
 import { motion } from "framer-motion";
 
-import fire from "../../../img/chipa-fire.png"
+import fire from "../../../img/chipa-fire.webp"
 import { Recipe } from "../Recipe/Recipe";
 
 export const Manifest = () => {

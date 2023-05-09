@@ -6,7 +6,7 @@ import { useContext } from "react";
 import { Downarrow } from "../../DownArrow/DownArrow";
 
 //import img//
-import chipa from '../../../img/chipa.png';
+import chipa from '../../../img/chipa.webp';
 
 //import framer motion//
 import { motion } from "framer-motion";

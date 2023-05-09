@@ -6,7 +6,7 @@ import { useContext } from "react";
 import { motion } from "framer-motion";
 import chipadigital from "../../img/chipa-digital.svg";
 import { Downarrow } from "../DownArrow/DownArrow";
-import chipaplane from "../../img/chipa-plane.png"
+import chipaplane from "../../img/chipa-plane.webp"
 import { Social } from "../Navbar/Social/Social";
 import { ContactForm } from "./ContactForm/ContactForm";
 
