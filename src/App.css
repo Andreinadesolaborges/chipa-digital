@@ -1798,6 +1798,10 @@ label{
   .input-style{
     width: 200px;
   }
+  .container-contact{
+    background-image: none;
+    background: #4A325B;
+  }
 
   .container-contact-form{
     background-image: none;
