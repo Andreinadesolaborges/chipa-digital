@@ -908,6 +908,10 @@ select:focus-visible {
   justify-content: space-between;
 }
 
+footer a {
+color: #4A325B;
+}
+
 .footer-list-element {
   color: #4A325B;
   font-family: "ExtraBold";

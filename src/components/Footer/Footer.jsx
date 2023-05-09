@@ -11,6 +11,8 @@ export const Footer = () => {
     const { texts } = useContext(LanguageContext);
 
     return (
+        <>
+        <footer>
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="footer">
             <div className="cta-footer">
                 <h2 className="bold">{texts.menuCTA}</h2>
@@ -18,10 +20,10 @@ export const Footer = () => {
             </div>
             <div className="links-footer">
                 <ul className="footer-list">
-                    <Link to={"/"}> <motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4 }} viewport={{ once: true }} className="footer-list-element">{texts.menuCat1}</motion.li> </Link>
-                    <Link to={"/about"}><motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: .4 }} viewport={{ once: true }} className="footer-list-element">{texts.menuCat2}</motion.li></Link>
-                    <Link to={"/services"}><motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: .8 }} viewport={{ once: true }} className="footer-list-element">{texts.menuCat3}</motion.li></Link>
-                    <Link to={"/contact"}><motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: 1.2 }} viewport={{ once: true }} className="footer-list-element">{texts.menuCat4}</motion.li></Link>
+                    <motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4 }} viewport={{ once: true }} className="footer-list-element"><Link to={"/"}> {texts.menuCat1}</Link></motion.li> 
+                    <motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: .4 }} viewport={{ once: true }} className="footer-list-element"><Link to={"/about"}>{texts.menuCat2}</Link></motion.li>
+                   <motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: .8 }} viewport={{ once: true }} className="footer-list-element"> <Link to={"/services"}>{texts.menuCat3}</Link></motion.li>
+                    <motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: 1.2 }} viewport={{ once: true }} className="footer-list-element"><Link to={"/contact"}>{texts.menuCat4}</Link></motion.li>
                 </ul>
             </div>
             <div className="footer-social-container"> 
@@ -35,8 +37,9 @@ export const Footer = () => {
             </div>
             <h6>2023 © Chipa digital agency </h6>
             <LanguageSelect />
-            
         </motion.div>
+        </footer>
+        </>
     );
 }
 
