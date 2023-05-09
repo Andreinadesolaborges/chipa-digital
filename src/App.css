@@ -2,30 +2,35 @@
   font-family: "Light";
   src: local("GreycliffCF-Light"),
     url("./fonts/GreycliffCF-Light.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Medium";
   src: local("GreycliffCF-Medium"),
     url("./fonts/GreycliffCF-Medium.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
   font-family: "ExtraBold";
   src: local("GreycliffCF-ExtraBold"),
     url("./fonts/GreycliffCF-ExtraBold.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
   font-family: "Heavy";
   src: local("GreycliffCF-Heavy"),
     url("./fonts/GreycliffCF-Heavy.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
   font-family: "Regular";
   src: local("GreycliffCF-Regular"),
     url("./fonts/GreycliffCF-Regular.ttf") format("truetype");
+    font-display: swap;
 }
 
 #input_11, #input_13 {
