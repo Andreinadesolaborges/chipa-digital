@@ -16,12 +16,12 @@ export const Contact = () => {
     return (
         <div>
             <div className="App" id="top">
-                <div className="container-contact contact-title">
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }}   className="container-contact contact-title">
                     <motion.h1 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="h1-big-outline">{texts.contactTitle}</motion.h1>
-                    <img className="chipa-title" src={chipadigital} alt="chipadigital" />
+                    <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }}  className="chipa-title" src={chipadigital} alt="chipadigital" />
                     <Downarrow id={"contact"} color="white" />
-                </div>
-                <div className="container-contact-form" id="contact">
+                </motion.div>
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }}  className="container-contact-form" id="contact">
                     <div className="flex-contact">
                         <div className="contact-info">
                             <img className="contact-img" src={chipaplane} alt="chipa-plane" />
@@ -35,7 +35,7 @@ export const Contact = () => {
                         <ContactForm/>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     );

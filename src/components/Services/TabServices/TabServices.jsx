@@ -30,7 +30,7 @@ export const Tabservices = () => {
             titleS2: `${texts.servicesDesignTitle}`,
             contentS2one: `${texts.servicesDesignCopy}`,
             contentS2two: `${texts.servicesDesignCopy2}`,
-            imgS2: 'card-service.png',
+            imgS2: 'card-service.webp',
             cta: `${texts.servicesCTA}`,
         },
         {
@@ -46,7 +46,7 @@ export const Tabservices = () => {
             titleS2: `${texts.servicesMktTitle}`,
             contentS2one: `${texts.servicesMktCopy}`,
             contentS2two: `${texts.servicesMktCopy2}`,
-            imgS2: 'card-service2.png',
+            imgS2: 'card-service2.webp',
             cta: `${texts.servicesCTA}`,
         },
         {
@@ -62,7 +62,7 @@ export const Tabservices = () => {
             titleS2: `${texts.servicesCommTitle}`,
             contentS2one: `${texts.servicesCommCopy}`,
             contentS2two: `${texts.servicesCommCopy2}`,
-            imgS2: 'card-service3.png',
+            imgS2: 'card-service3.webp',
             cta: `${texts.servicesCTA}`,
         
         }
