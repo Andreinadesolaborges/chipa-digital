@@ -79,6 +79,12 @@ h4 {
   letter-spacing: -0.01em;
   color: #4A325B;
 }
+h5 {
+  font-family: "Regular";
+  font-size: 1.15em;
+  line-height: 1.45em;
+  letter-spacing: -0.01em;
+}
 
 .container {
   text-align: center;
@@ -1085,8 +1091,8 @@ color: #4A325B;
 .recipe-ingredient{
   color: #E3D6EA;
   font-family: 'Regular';
-  font-size: 1.4em;
-  line-height: 1.4em;
+  font-size: 1.2em;
+  line-height: 1.45em;
   list-style-type: circle;
 }
 
