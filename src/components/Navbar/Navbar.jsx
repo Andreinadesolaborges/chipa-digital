@@ -36,10 +36,10 @@ export const Navbar = () => {
                 }}>
                     <div className="container-secciones">
                         <ul>
-                            <Link onClick={() => setNavOpen(!navOpen)} to={"/"}> <motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4 }} viewport={{ once: true }}>{texts.menuCat1}</motion.li> </Link>
-                            <Link onClick={() => setNavOpen(!navOpen)} to={"/about"}><motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: .4 }} viewport={{ once: true }}>{texts.menuCat2}</motion.li></Link>
-                            <Link onClick={() => setNavOpen(!navOpen)} to={"/services"}><motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: .8  }} viewport={{ once: true }}>{texts.menuCat3}</motion.li></Link>
-                            <Link onClick={() => setNavOpen(!navOpen)} to={"/contact"}><motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: 1.2  }} viewport={{ once: true }}>{texts.menuCat4}</motion.li></Link>
+                            <motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4 }} viewport={{ once: true }}> <Link onClick={() => setNavOpen(!navOpen)} to={"/"}>{texts.menuCat1}</Link></motion.li> 
+                           <motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: .4 }} viewport={{ once: true }}> <Link onClick={() => setNavOpen(!navOpen)} to={"/about"}>{texts.menuCat2}</Link></motion.li>
+                          <motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: .8  }} viewport={{ once: true }}>  <Link onClick={() => setNavOpen(!navOpen)} to={"/services"}>{texts.menuCat3}</Link></motion.li>
+                           <motion.li initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: .4, delay: 1.2  }} viewport={{ once: true }}> <Link onClick={() => setNavOpen(!navOpen)} to={"/contact"}>{texts.menuCat4}</Link></motion.li>
                         </ul>
                     </div>
                     <SocialContainer/>
