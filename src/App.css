@@ -367,6 +367,7 @@ select:focus-visible {
   z-index: 3;
   right: 0;
   bottom: 0;
+  padding-bottom: 1em;
 }
 
 
@@ -400,6 +401,7 @@ select:focus-visible {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 2em;
 }
 
 .hero-img {
@@ -536,6 +538,8 @@ select:focus-visible {
   background-attachment: fixed;
   background-position: bottom;
   background-size: cover;
+  padding-bottom: 2em;
+  padding-top: 2em;
 }
 
 
@@ -1892,6 +1896,17 @@ label{
   .h1-big-outline {
     font-size: 12em;
   }
+}
+
+@media (height <=380px){
+.icon-arrow{
+  width: 30px;
+  height: 30px;
+}
+
+.hero-img{
+  height: 140px;
+}
 }
 
 
