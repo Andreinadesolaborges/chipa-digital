@@ -14,9 +14,9 @@ export const ContactForm = () => {
                 <label for="name" className="">{texts.contactForm1}</label>
                 <input className="input-style" type="text" name="name" placeholder="John Doe" required/>
                 <label for="email" className="">Email</label>
-                <input className="input-style" type="email" name="email" placeholder="Email" required />
+                <input className="input-style" type="email" name="email" placeholder="Example@mail.com" required />
                 <label for="message" className="">{texts.contactForm2}</label>
-                <textarea className="input-style" name="message" required defaultValue={""} />
+                <textarea className="input-style" name="message" required defaultValue={""} placeholder="Text here" />
                 <input type="hidden" name="redirect" defaultValue="https://web3forms.com/success" />
                 <motion.button className="yellow contact-button" whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} type="submit"> <span>{texts.ctaHome}</span></motion.button>          
             </form>
