@@ -101,11 +101,11 @@ export const Tabservices = () => {
                     )}
                 </div>
             </motion.div>
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="services-detail-container">
+            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="services-detail-container"  id="service">
            {tabs.map((tab, i) =>
                     <div key={i}>
                         {currentTab === `${tab.id}` &&
-                            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="section-service" id="service">
+                            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="section-service">
                                 <h2 className="bold service-cont-2">{tab.titleS2}</h2>
                                 <div className="service-content">
                                     <h4 className="service-cont">{tab.contentS2one}</h4>

@@ -1909,4 +1909,23 @@ label{
 }
 }
 
+@media (height >=1080px){
+  .banner {
+    height: 20vh;
+    height: 20dvh;
+  }
+  .section-home{
+    height: 30vh;
+    height: 30dvh;
+  }
+
+  .section-home-2{
+    min-height: 60vh;
+    min-height: 60dvh;
+  }
+  .section-home-3{
+    height: 40vh;
+    height: 40dvh;
+  }
+}
 
