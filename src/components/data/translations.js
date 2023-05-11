@@ -132,7 +132,7 @@ export const translations = {
         aboutText: "We are a team passionate about creating digital strategies and designs that make a difference. We attend to business concerns and offer real solutions. ",
         aboutM1: "In a world with increasingly advanced technology, change is a constant that drives us to continue learning and trying new ways of working.",
         aboutM2: "We take care of carefully listening to our clients and researching different ways to help them grow in their industry, offering all our knowledge and professional experience.",
-        aboutM3: "Also, we always find an entertaining way to do it. That is why we believe that our manifesto must honor its origin: the chipa, a typical food and by the way, very rich from Corrientes, a Province of Argentina.",
+        aboutM3: "Also, we always find an entertaining way to do it. That is why we believe that our manifesto must honor its origin: the chipa, a typical food and by the way, very tasty from Corrientes, a Province of Argentina.",
         recipeTitle: "Presenting our custom chipa recipe.",
         recipeStart: "Ingredients:",
         recipeI1: "1 cup of strategy",
