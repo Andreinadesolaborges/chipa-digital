@@ -12,7 +12,7 @@ export const Social = () => {
                     <img className='icon-s' src={instagram} alt="instagram" />
                 </motion.div>
             </a>
-            <a href="https://www.linkedin.com/chipa-digital" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/company/chipa-digital-agency/" target="_blank" rel="noreferrer">
                 <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} className='social-icon'>
                     <img className='icon-s' src={linkedin} alt="linkedin" />
                 </motion.div>
