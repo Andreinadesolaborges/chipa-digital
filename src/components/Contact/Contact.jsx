@@ -26,6 +26,10 @@ export const Contact = () => {
                         <div className="contact-info">
                             <img className="contact-img" src={chipaplane} alt="chipa-plane" />
                             <h6 className="contact-text">{texts.contactCTA}</h6>
+                            <a className="phone" href="https://wa.me/353833150478" target="_blank" rel="noreferrer">Dublin: +353-83-315-0478</a>
+                            <a className="phone" href="https://wa.me/5491150125570" target="_blank" rel="noreferrer">Argentina: +54-911-5012-5570</a>
+                            
+                          
                             <a className="contact-mail" href="mailto:info@chipadigital.com">info@chipadigital.com</a>
                             <div className="social-text-wrapper no-padding">
                                 <Social />

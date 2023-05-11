@@ -8,7 +8,7 @@ export const Sidebar = () => {
     return (
         <div className="sidebar">
             <p className="sidebar-text mobile-hidden">{texts.sidebarText}</p>
-            <a  className="sidebar-btn" href="https://wa.me/54911XXXXXXXX" target="_blank" rel="noreferrer">
+            <a  className="sidebar-btn" href="https://wa.me/353833150478" target="_blank" rel="noreferrer">
                     <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} className="social-icon chat-btn">
                         <img className='icon-s' src={chat} alt="chat" />
                     </motion.div>

@@ -1387,11 +1387,13 @@ margin-top: 2em;
   font-size: 2em;
   text-decoration-line: underline;
   text-underline-offset: 2px;
+  margin-top: .25em;
 }
 
 .contact-text {
   font-family: "heavy";
   font-size: 2em;
+  margin-bottom: .25em;
 }
 
 .contact-form{
@@ -1449,6 +1451,12 @@ label{
 .text-contact{
   align-self: center;
   margin-top: 2em;
+}
+
+.phone {
+  font-size: 1.2em;
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
 }
 
 /*Media Queries*/
