@@ -20,7 +20,7 @@ export const About = () => {
                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }} className="mini-container">
                         <div className="line"></div>
                         <h6 className="mini-sub">{texts.aboutMiniSub}</h6>
-                        <div className="line mobile-show"></div>
+                        <div className="line"></div>
                     </motion.div>
                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }}className="subtile-container">
                     <h1 className="about-subtitle">{texts.aboutSubtitle}</h1>
