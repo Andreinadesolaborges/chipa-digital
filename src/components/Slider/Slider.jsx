@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 //import framer motion//
 import { motion } from "framer-motion";
@@ -26,8 +26,12 @@ export const Slider = () => {
     const pagination = {
         clickable: true
     }
+
     return (
-        <Swiper pagination={pagination} modules={[Pagination]} className="mySwiper">
+        <Swiper  autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }} pagination={pagination} modules={[Autoplay, Pagination]} className="mySwiper">
             <SwiperSlide>
                 <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} animate={{ y: 15 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 0.5 }} viewport={{ once: true }}>
                     <img className='hero-img' src={planeta} alt="planeta" />
