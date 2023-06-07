@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 
 import email from "../../../img/mail.svg";
-import instagram from "../../../img/instagram.svg";
 import linkedin from "../../../img/linkedin.svg";
 
 export const Profilecard = ({ img, alt, name, job, mail, link, ig }) => {
