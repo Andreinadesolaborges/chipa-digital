@@ -15,11 +15,8 @@ export const Banner = () => {
                 visible: {x: 0},
                 hidden: { x: 500}
             }}>{texts.banner}</motion.h1>
-               <motion.h1 className="banner-text mobile-show" initial="hidden" animate="visible" viewport={{ once: false, amount: 0.5 }} transition={{ ease: "easeOut", duration: 5, repeat: Infinity }} 
-            variants={{
-                visible: {x: "-200dvw"},
-                hidden: {x: "200dvw"}
-            }}>{texts.banner}</motion.h1>
+               <motion.h1 className="banner-text mobile-show" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 1 }}
+            >{texts.banner}</motion.h1>
         </div>
     );
 }

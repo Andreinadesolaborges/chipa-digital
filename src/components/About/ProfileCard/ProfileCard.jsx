@@ -19,9 +19,6 @@ export const Profilecard = ({ img, alt, name, job, mail, link, ig }) => {
                     <motion.div whileHover={{ scale: 1.1 }} className="round-cicle">
                          <a href={link} target="_blank" rel="noreferrer"><img className="icon-s" src={linkedin} alt="linkedin icon"/></a>
                     </motion.div>
-                    <motion.div whileHover={{ scale: 1.1 }} className="round-cicle">
-                         <a href={ig} target="_blank" rel="noreferrer"><img className="icon-s" src={instagram} alt="instagram icon"/></a>
-                    </motion.div>
                     
                 </div>
             </motion.div>
