@@ -506,6 +506,8 @@ select:focus-visible {
   background: white;
   text-align: center;
   flex-direction: column;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .section-text {
@@ -615,8 +617,8 @@ select:focus-visible {
 
 .section-home-3 {
   width: 100dvw;
-  height: 100vh;
-  height: 100dvh;
+  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1861,8 +1863,8 @@ label {
   }
 
   .section-home-3{
-    height: 50vh;
-    height: 50dvh;
+    height: 60vh;
+    height: 60dvh;
   }
 
 }
@@ -1973,7 +1975,7 @@ label {
   }
 
   .section-home-3 {
-    height: 40vh;
-    height: 40dvh;
+    min-height: 50vh;
+    min-height: 50dvh;
   }
 }
